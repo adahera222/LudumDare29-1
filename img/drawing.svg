@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="0.48.4 r9939"
+   version="1.1"
+   id="svg2"
+   height="1052.3622047"
+   width="744.09448819">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="1556.5195"
+     inkscape:cy="-3090.6649"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:#a05a2c;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4092"
+       width="284.42166"
+       height="161.33727"
+       x="-1183.265"
+       y="3079.0156"
+       rx="48.242229"
+       ry="48.242229"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <rect
+       style="fill:#a05a2c;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;opacity:0"
+       id="rect4106"
+       width="802.85718"
+       height="1377.1427"
+       x="-1305.7142"
+       y="1886.6479"
+       rx="48.242229"
+       ry="48.242229"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/plume.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       id="path4096"
+       d="m -840.32122,2633.8884 c -52.4418,0 -94.9687,57.429 -94.9687,128.2813 0,64.5882 35.3397,118.0243 81.3125,126.9687 19.1796,34.5631 65.1089,58.9063 118.7188,58.9063 70.85221,0 128.2812,-42.4957 128.2812,-94.9375 0,-52.4418 -57.42899,-94.9688 -128.2812,-94.9688 -3.4173,0 -6.8064,0.1184 -10.1563,0.3126 -1.4568,-69.1321 -43.3852,-124.5626 -94.9063,-124.5626 z"
+       style="fill:#ffd5d5;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       transform="translate(-799.43169,363.57081)"
+       d="m 96.974644,2256.4641 a 130.30968,96.974648 0 1 1 -260.619354,0 130.30968,96.974648 0 1 1 260.619354,0 z"
+       sodipodi:ry="96.974648"
+       sodipodi:rx="130.30968"
+       sodipodi:cy="2256.4641"
+       sodipodi:cx="-33.335033"
+       id="path4098"
+       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -804.91827,2626.7542 c 0,0 94.95435,82.8325 54.54824,226.2741 -39.35651,139.7157 -74.75129,309.1067 -74.75129,309.1067 l -298.37148,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.88333,68.6904 286.88333,68.6904 z"
+       id="path4083"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="3079.0156"
+       x="-980.4079"
+       height="161.33727"
+       width="284.42166"
+       id="rect4108"
+       style="fill:#a05a2c;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffd5d5;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4075"
+       sodipodi:cx="158.59395"
+       sodipodi:cy="2041.3015"
+       sodipodi:rx="188.89853"
+       sodipodi:ry="188.89853"
+       d="m 347.49248,2041.3015 a 188.89853,188.89853 0 1 1 -377.797061,0 188.89853,188.89853 0 1 1 377.797061,0 z"
+       transform="translate(-1068.7414,410.12194)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       id="rect3775"
+       width="275.71432"
+       height="151.98418"
+       x="-77.14286"
+       y="899.50507"
+       rx="48.242229"
+       ry="48.242229"
+       inkscape:export-xdpi="9.3999996"
+       inkscape:export-ydpi="9.3999996"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="474.94156"
+       x="-35"
+       height="520.55554"
+       width="458.57144"
+       id="rect2985-4"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="9.3999996"
+       inkscape:export-ydpi="9.3999996" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="899.50507"
+       x="214.28571"
+       height="151.98418"
+       width="275.71432"
+       id="rect3777"
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="9.3999996"
+       inkscape:export-ydpi="9.3999996" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="169.50504"
+       x="52.857143"
+       height="520.55554"
+       width="458.57144"
+       id="rect2985"
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="9.3999996"
+       inkscape:export-ydpi="9.3999996" />
+    <rect
+       ry="42.527931"
+       rx="42.527931"
+       y="318.07648"
+       x="130"
+       height="124.28571"
+       width="395.71429"
+       id="rect2987"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#f5f5f5;stroke-opacity:1;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="9.3999996"
+       inkscape:export-ydpi="9.3999996" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="921.04089"
+       x="-449.65698"
+       height="151.98418"
+       width="275.71432"
+       id="rect3777-6"
+       style="fill:#5f5f5f;fill-opacity:1;stroke:none" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="179.60306"
+       x="-660.21033"
+       height="479.99335"
+       width="422.83905"
+       id="rect2985-3"
+       style="fill:#5f5f5f;fill-opacity:1;stroke:none" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="496.47739"
+       x="-698.94269"
+       height="520.55554"
+       width="458.57144"
+       id="rect2985-4-0"
+       style="fill:#767676;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#5f5f5f;fill-opacity:1;stroke:none"
+       id="rect3775-3"
+       width="275.71432"
+       height="151.98418"
+       x="-741.08557"
+       y="921.04089"
+       rx="48.242229"
+       ry="48.242229" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="930.86407"
+       x="-1121.077"
+       height="151.98418"
+       width="275.71432"
+       id="rect3777-6-3"
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy.png"
+       inkscape:export-xdpi="10.16"
+       inkscape:export-ydpi="10.16" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="506.3006"
+       x="-1370.3628"
+       height="520.55554"
+       width="458.57144"
+       id="rect2985-4-0-7"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy.png"
+       inkscape:export-xdpi="10.16"
+       inkscape:export-ydpi="10.16" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="189.42633"
+       x="-1331.6305"
+       height="479.99335"
+       width="422.83905"
+       id="rect2985-3-5"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy.png"
+       inkscape:export-xdpi="10.16"
+       inkscape:export-ydpi="10.16" />
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       id="rect3775-3-8"
+       width="275.71432"
+       height="151.98418"
+       x="-1412.5057"
+       y="930.86407"
+       rx="48.242229"
+       ry="48.242229"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy.png"
+       inkscape:export-xdpi="10.16"
+       inkscape:export-ydpi="10.16" />
+    <rect
+       ry="42.527931"
+       rx="42.527931"
+       y="291.19376"
+       x="-1264.5782"
+       height="124.28571"
+       width="395.71429"
+       id="rect2987-6"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#e8e8e8;stroke-width:20;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy.png"
+       inkscape:export-xdpi="10.16"
+       inkscape:export-ydpi="10.16" />
+    <rect
+       transform="scale(-1,1)"
+       ry="48.242229"
+       rx="48.242229"
+       y="904.98419"
+       x="-972.62463"
+       height="151.98418"
+       width="275.71432"
+       id="rect3777-5"
+       style="fill:#5f5f5f;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(-1,1)"
+       ry="48.242229"
+       rx="48.242229"
+       y="480.42072"
+       x="-1221.9103"
+       height="520.55554"
+       width="458.57144"
+       id="rect2985-4-4"
+       style="fill:#767676;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(-1,1)"
+       ry="48.242229"
+       rx="48.242229"
+       y="174.98422"
+       x="-1134.0532"
+       height="520.55554"
+       width="458.57144"
+       id="rect2985-2"
+       style="fill:#5f5f5f;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(-1,1)"
+       ry="42.527931"
+       rx="42.527931"
+       y="323.55563"
+       x="-1056.9103"
+       height="124.28571"
+       width="395.71429"
+       id="rect2987-7"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#8e8e8e;stroke-width:20;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       transform="scale(-1,1)"
+       style="fill:#5f5f5f;fill-opacity:1;stroke:none"
+       id="rect3775-0"
+       width="275.71432"
+       height="151.98418"
+       x="-1264.0532"
+       y="904.98419"
+       rx="48.242229"
+       ry="48.242229" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ff0a0a;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:cx="-1888.9852"
+       sodipodi:cy="1567.54"
+       sodipodi:rx="296.98486"
+       sodipodi:ry="296.98486"
+       d="m -1592.0004,1567.54 a 296.98486,296.98486 0 1 1 -593.9697,0 296.98486,296.98486 0 1 1 593.9697,0 z"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/target.png"
+       inkscape:export-xdpi="18.17"
+       inkscape:export-ydpi="18.17"
+       transform="translate(652.55855,-50.507628)"
+       id="path3009" />
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:#ff0a0a;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1230.3658,1337.2252 c 0,363.655 0,363.655 0,363.655 l 0,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/target.png"
+       inkscape:export-xdpi="18.17"
+       inkscape:export-ydpi="18.17"
+       id="path3011" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m -1048.5383,1519.0527 c -363.655,0 -363.655,0 -363.655,0 l 0,0"
+       style="fill:#000000;fill-opacity:0;stroke:#ff0a0a;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/target.png"
+       inkscape:export-xdpi="18.17"
+       inkscape:export-ydpi="18.17"
+       id="path3013" />
+    <rect
+       ry="48.242229"
+       rx="48.242229"
+       y="891.51727"
+       x="173.26982"
+       height="151.98418"
+       width="275.71432"
+       id="rect3777-3"
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="9.3999996"
+       inkscape:export-ydpi="9.3999996" />
+    <path
+       id="path3864"
+       style="fill:#ffffff;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -2151.0042,1042.2606 61.0334,-767.71589 -137.9886,-197.989897 -137.9886,197.989897 50.4189,765.69559 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/sword.png"
+       inkscape:export-xdpi="5.04"
+       inkscape:export-ydpi="5.04" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -2230.613,282.62593 c 0,753.57377 -10.6146,753.57377 -10.6146,753.57377"
+       id="path3868"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/sword.png"
+       inkscape:export-xdpi="5.04"
+       inkscape:export-ydpi="5.04" />
+    <path
+       style="fill:#ffd42a;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -2318.1827,1040.2404 -63.687,80.8122 76.9551,125.2589 161.8712,2.0203 61.0334,-109.0965 -76.9551,-98.9949 z"
+       id="path3870"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/sword.png"
+       inkscape:export-xdpi="5.04"
+       inkscape:export-ydpi="5.04" />
+    <path
+       style="fill:#ffd42a;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -2368.6016,1155.3977 -281.2845,-54.5482 -98.1842,-58.5889 124.7205,-52.52788 222.9046,76.77158 90.2233,-16.1625 z"
+       id="path3872"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/sword.png"
+       inkscape:export-xdpi="5.04"
+       inkscape:export-ydpi="5.04" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3874"
+       d="m -2074.0492,1149.3368 281.2845,-54.5482 98.1842,-58.5889 -124.7206,-52.52788 -222.9045,76.77158 -90.2234,-16.1625 z"
+       style="fill:#ffd42a;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/sword.png"
+       inkscape:export-xdpi="5.04"
+       inkscape:export-ydpi="5.04" />
+    <path
+       style="fill:#d40000;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -2312.8755,1250.3521 7.9609,157.5838 -50.4189,32.3249 0,66.67 135.335,34.3452 135.3348,-34.3452 0,-68.6903 -76.9551,-30.3046 15.9218,-157.5838"
+       id="path3880"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/sword.png"
+       inkscape:export-xdpi="5.04"
+       inkscape:export-ydpi="5.04" />
+    <image
+       y="2005.0382"
+       x="-41.455368"
+       id="image3272"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABwCAYAAACuE3ZzAAAABHNCSVQICAgIfAhkiAAAGchJREFU
+eJzlnXl0VFW2/z+3kqrMhIyEJISEAGGSGQQiyCSDKAqtthL8+bRFQeE1z9a2se2mfd1N29D6HEAa
+cUJbG0VsBRlsEQQRBJF5SELmkDlknmpInd8fp6pSldRwqxLe+q31+651V+6tu++5++y7zzn77L3P
+iSKE4P9naG70CxRF8VMUJUFRlLAb/S5foPSUBiiKEgBMBQZ1OlIAnYWsBSh3chQCR4UQeT3CjBfo
+tgAURUkEVgDLgJhu8lMIHAIOAgeFECXdLM8jfBaAoijpwGrgbsDf4R7QF0gFBgDJQDNQ0emoAtrd
+vyYbKYy3hRCnfGLUE4QQXh3IfuPPgBkQ1mMIiE0gLoFoASFUHO0gKkAcBPE7EOkgtHZldjoOA3cB
+Gm95dlsfLysfDXxtZUoBcTuI/SDMKivt6WgEsRfE0yDGOhdENvAf/+sCAMYBRVZGEkB8r7JS+0BM
+ALEYRKaXAjkP4hEQAV0F8Sag/V8RAJCA7K0FIGZZVFdtJV6zY/yyj5pRCeIFEBGOQjgERN5QAQAB
+wAnrS58CYQLxnUX11TD/azum67vZRLJBDHIUwjs3WgBvW192r4WJ2ZbroSqZzrDQh6qk/96DplwH
+MapDAHog8YYIAJhurfxIEE0WBp63+wJHVFToVjpGCjUCsHZ+t7mh+dJRC/7bVwG4NIUVRVGADQB+
+wIdAiOXeL5BjPZaeyBOs1kyCCtpi4LTlfLgbugmOlz6b9O4eXASMB2nijbC7kQzcZjn/FKj18BKr
+ABJVMPSF3flCN3QXHC9rVBTtHG7UfzfI4afSiQrusFPBVz20VyvdcyrU39q/RIAwuqBpBTGuo1wT
+MLhH+wCkTW8EOXY7Y8IAIsbCxHA3FTpnJ4A3PFS+lg5LcKkbugcc2/+27owCrprA7Vjs+9kuCLTA
+Q5bzS8AxF3T2sxlPfcBei9RB2rzO8CXwz47LC8BKD8W6hwsNSLLwItLdfIlMuy/xkAuarXY0P3nQ
+gHstdAEgGpzc14MYiMPw57PqexwGgfetjH/nhulpFpogEHVO7q+1E0C5m3LaQIRZ6Oa5oHnRUfXX
+d7fyngQwHMuMb4Ebxj+wY2qjk/uPWu5pcT9h2mtXzmYn90uRhpSFpgwI6wkBOMzjOzWNS4qi7AYW
+7rU0tps60dRbJBRo0ce/A0eQ9sJQy5FtoY2nw3ZwBuvwp+B8+HsWaOq4/I0QotFNcerhVj1gMhap
+Z1i+hBHEmyDmgtA5qqTLwx9EEojDLrTADKKvhXaCk/vHkVNvS3k/YHHk3NAmYCeEb62V2A9ivJuK
+6rSKiOjlJ4ICFJc0CUjnR32nClrv/8mJcCZ03DcDE3uq8kIIzy4xRVHmAfs6/67RwJwpoWTcEc5t
+k0OI6u2Hv59UcrMZ8q4ZuHhVz/nsNr483MSPF1sdno8C1gBPAi8AL1p+P49jU3sHaXpb8J4Q4mG3
+DHsJVT5BRVHOAKOt131j/Dm7cwCxkS67kC7ILTawfV8Db++sJb/EaPs9EQgDriDdx/Zu4QZgMNJ/
+iPQoDxBCVKh+qQqoFcAm4AmAuGh/Lu9KJaKXn08vNJoEWz6p5U9bqqm4bgLkhGQpcCdwjx3t08BL
+HZcVyGmvyacXu4CaJhCC/DCxoSEaTv4zhaEDArr94qYWMy9vu866rdXoDZKHecA/kM0jC9kUjI6P
+rRJCbOz2y+3gdhppiea8CsQCvLg6tkcqDxAarOH3K2L47v1k+sdrAdgPzECq/mo6Kh8WYmPzD4qi
+RPQIAxa41ABFUe7TaHjdbJaV7x+vJXvPQHRax9G8sdnMP76s58eLreQWGxg6IIDJo4LIuCPc1il6
+wvW6dh545hpfH28GYAiQabm3YFoo824JZdW6civ5q0KI1d5W1BXcacBwa+UBfrc8pkvlv/mhmRF3
+57J2UxV19e1MGBFEcZmJlX8uZ+L9+ZzPblPFRFRvP3ZtTCJ9TDDQUXmdVuF/no1jxf2RDB9o07wn
+FEUZ4awcX+BOA5KRbV/pH68lZ99Ahy+aVWBgzM9yWTgjjL+v7UvvsI5OsajMyEPPlXI5V8/FL1KJ
+iVDXYdbUt5O+tIDMfD0Av34kir8+1QeQwp79aKGV9Bhwi1DTg3uA205QUZQDwKyQIA3VR9MIDOgQ
+wKSMfAK1Gg6+0x+NEz1qaTMzanEeY4cG8vFLanxBEgUlRiZn5KMokPXlQPv2T8azJXy0p956uUII
+8XfVBbuAJ1/apwDNrWaOnm5xYPLEuVZe/nUfp5UHCA7U8N8rY/j8YCMGo/oPlZygZc8bSby2Js6h
+8gCv/CaOyHCbNr2oKMoA1QW7gCcBfG09OfBDs+3Hny63EhSgMGpIoNuHbx4ZhMEouHBV7xVTY4cF
+cs+cXl1+j4nw46Vn+lgvw4F9iqKEelV4J7gVgBAiF8gH+Pp4x1ys3Qwaxf3sDsBPIyna27vdVG34
+j7t7s3CGLddiMLDN4sH2CWrcyV8DnM1s43qdDGaPGxZIc5vgcq77L/vjxVb8/WDkYPea4g3azXLY
+DA60sb4YeN7X8lQLwGyGgydkM0jtp2PEoACefdm1WW4wCtZuqmLOlDCHzrM7MJvhV+vLuXC1jf1b
+kuznImsVRZnkS5lqBHAQOQ116AfeX5fA18ebWLWunFa9o4pbDZvsQgOX89rY+FENTS1mX/izobDU
+yMxHCnhzRy0f/CWBqeOC+eTlRGsn7Ad84Et/oHYydBKYMCBRR+7+gbbf//VNI8vWlhIarGHmzSEM
+SNRxJa+Nf3/fTHiYHxt+1YdjZ1vY+mkteqNg+oQQbp8ayoJbQxmQqHP9Qjtcr2vnn3vr+e1rlQzu
+H8A//ppAWnLHs2teqeTFt6qtl28JIZZ5UX/VAtiAnJxRcyzNYSZYcd3EG9tr+fFCK7nXDAxNCWDy
+6CBWLokkJEh+nqYWM3u/a2Kf5ai4bmJQfx0jBgYwMEnHoP46+sdrMZmk/dDcaqbiejt7jjTy/ekW
+wkL8WJURye9XRHcxrw1GwaQl+Zy5YrM6Fwohdve0AJYDmwHO7hzAqLSunVpppQlTuyCpr9ZtWULA
+6SttHDrZTFa+nquFBnKKDJRWmRACAnQKYSEaonv7Mzc9hIUzwpg2PtjtvOJyrp5x9+XRJpviKSHE
+BJfEnaDWo2GzQYvKjF0E0KoXLHiiiCt5elb8PILnHotxaf4qihxFxg1zLENvEPj5oXoCZY9hqQEs
+uyeC1z+sARivKMpoIcRZNc+qjaoW2U7KjF1uvrztOmcz29AbBK98UMOAuVf5wxtVNDar7/gCdIpP
+lQfpfuuEwWqfVdsEwoE6gOeWRfPnX8Y63K9vMnPz/XlkFTgyEhnux/3ze7FkQThTRgfju7ki0dhs
+5sLVNs5n67mQ3fG3vqmLoB8VQrytpky1AuiDzBFi3S9jWbMsugtNZr6emx/Ip6ErM4D0J9w/P5wH
+bu/ltA/pjMoaE4d/bOGCxbF6PquNglIjHtitAXYBG4QQlz2+BPUCGIaMgbJlbV8eu9e5U2b3t43c
+tarYxmRiXBzXysu70IUEaUhO0JKSoCMlUUtKgpbIcD+qatsprTRx+FQzZ660eaqsFXuRsYJjwGFv
+fYZqO8FI20m467n9ndPDeOHJGH6/sQqA6MhIdm7Zwq4DB9i+axe5hbIvbW41cylHz6UcdZOkmKgo
+RgwezHDL0drWxlN//KP19jtCiJ0q69EFagVws40ZD67w5x+P4Wymns8ONHD28mVe2rqVdzZsYM0T
+T3Dq/Hn2HjpEbmEhxaWlFJWWUlFdTWct7J+QwMwpU5iVns6U8eOJjYpyuJ+Vm2t/2VdlHZxCjVfY
+H8gFkhJi/cn/9yC0/u57s6YWM+PuyyPb0ike2bGDsSOce7H0BgPXysqob2wkJiqK2KgoAnTurcSG
+xkbiJ060Xq4TQvzW7QNuoEYD7kPmC/CfS6M8Vh7kkGYdAgcmJzNmuOt0pwCdjtT+/VUxa0VYaCga
+jQaz2QzQ26uHO8GlABRF0QAZWCzA0GANj92r7l07vmqgrEr2RcszMujGdN0prtfWWisPtsCRb+hi
+CCmKolEU5UGkc/Z9LNlxf3gixsHx6Q6vSYuM0JAQli5a1B3+nKK0stL+sqw7ZTnm+SvKAmA9MMz6
+m06r8OqaOJbfpy4eceJ8KyfOy0Dog4sXExoS4uEJ75FfVGR/WdqdsmwCsITAPkT62ggP1bBySSRP
+PhBJ3xj1QVDr11cUheUZGd3hzSX2HjpkPTUB33enLPua3YSl8v3itPy0Y4Bqf74VZVUmdnzVAMBt
+U6d63bmpgdFkYs/Bg9bLo0KIuu6UZ98HnERmqlJcbuTB35Q4m2S4xeaPazGa5LC6YunS7vDlEh/v
+3k1dQ4P1cld3y3OwAxRFSQP2IJf74O+n8PCi3qxZFk1Kgvt5vt4gSJp9lcoaEwOTkzmzd2+P9/56
+g4FRc+dazetGIFUIUdWdMh1GASFEFjAJaV9jahds/bSW1HlXmfFwIe99XufSt7d9Xz2VNXLoW7F0
+aY9XHuC1d9+1n1us727lwX1s8BbgT8Ct9r+HBGn42W1hPHRXb2ZMDLFNccfdl8fpy22EBAeTe+RI
+j/f+h44f5+5ly2hvbwfZ8w8SQrR4eMwj1JjCtwCPIJM3HFZ/9ovTcuf0UFL76fjVBmmPhIeFcWbf
+vi72e3dwJSeH2zIyrG3fCMwRQnzbE2WrXjeoKEow8Cgyr2kQbgJDiXFxbN+0idHDhrkiUY39hw/z
+yDPP0NBoSwt8Tgjxl24XbIFaf8AEZNLGvcg8aY8ICgxk7erVPLZkCTqtqkcc0NDYyIYtW3j13Xft
+zV6Qay0/B14RQhz1uuBO8BQe1yHTdu51/B3iY/xJSdQR0UtDVr6B4nIjeoPA3Km45MREnl+1ikXz
+5nmc5QE0NTezbedO/rp5MzV1Hof4r4FFQohmT4Su4K4TDAY+A+bKa5ibHsqqJZHMmhRCgK5rCzCa
+BMfPtrLmlQqOnXXMCwwNCWH+9OnMSk8nsW9f4mNjiQgPp6qmhrLKSgquXWP/t99y8Ngx9IYO+yM5
+QYsC5JcY0WjgtskhHDjeTHuHUhwH5gsh6vEBTgVgibYeRq4GZ1RaIJ+8lMjgZHXRHIDMAgO3P17o
+kBPoDaIj/Pjd8hiW3xfBwRPNzF8u7f/Xn4vjrplhPPibEg6fsg0CZ4BJQgjvLDdcC2ASUrJMGBHE
+V28m+ZQXqDcIFv2ymH3fydC61l+xWYrOEBaiYW56KHdOD2PRrDBbgoSpXRCdnkV9k5m56aHs35JE
+q15wz38Vs/eILWw/Xwix31seXQlgPfAMwKUvUhmW6ntqXG1DO32mZWM0CRbNCuPph6MoqzJRVmWi
+tqGdmEh/+kb70zfGn9FDArskYllx/9PX+Hh/AwE6heqjaYQGayivNhE/I9vqPN0qhHjMW/5cCSAb
+GJTaT0fOvoFdn/ISsx8t5JsfmgkJ0lBzLM1lJd3hg931/J81cgHOvr8nMe8WGQie8PN8Tl1qBagU
+QvRxXYJzuIoMlYKMzJp6ILujuFz2A9ERfj5VHnDQwmsV0uQWAkqrbH2MT44RVwL4DKCusZ0vv21y
+QaIOx8+12pyji2d3zftRi9hIx4g0yISN0kpbGOAzX8p1JYB/WU8yni3hmx98G2bPZraxcGWH92bx
+bN/3UbHPTC+vNvHDuVbu+a9r9iQ9JwAhRDHwa5Dx+jueLOJPW6ptsz1PaGgy89qHNcz6RSHVtTKv
+aOWSSFsmqC8I0CmEh0p2j5xqYc5jhdQ12jbgWCeEuOhLuZ4swd8j1zMA0j/483m9mD05lAGJWlIS
+dfSN9qeq1kT+NSN51wwcPd3CB7vrHabNd88M48kHIhkyQEdCrNbnIOmAuVed2RXbga1AlvBh0xVP
+AvgIeMBtAQpqY3iAnE4PTpbZIasyIpkwIkj1s1HpWdTUu912pRGZaX8BmVR9zlOZnvID5gPcOmkS
+n7zxBrdO6pqI5azyY0eM4O3167kpLa3LveZWM2eutPHB7nom3p/P3f9ZrCqpWm8QtsrPmTqVlKQk
+Z2RhyAXfDwNnFEX5RFGUoe7KdTcXsIXEn1u5kueefBKAyuvXyS8qorCkhMKSEkorKoiNjqZ/QoI8
+EhNJjIsDZAyvuKyMkKAgSioqyM7LI8tyXMzKsnsXLFkQzlsvxLtMqSsoMZIy9yoALzz1FHOnTaOi
+uprgwECKSkvJzs8nKy+PzJwcMh1jh2bgPeBxZ5Fjd/7uIdaTwSkpth9jLfG7m8eMcfOoRFpqKmmp
+qU7vnbtyhb9s2sSX33yDEPDhl/UYjIKP/5botI8oq+7gPS4mhhFpaYywaNjkceMcaE+eO8e6jRs5
+cPQoSC1/BCmILhlk7pqATQCD7ATQUxg1dCjbN27k+88+Y/hgmdGy46sGnnnJeaQrt7hjnhMX437D
+qomjRvH51q0c3L6dAR1N5VFFUbpklLoTgM0GHngD/PtWjBo6lM+3bqVfXxnlfum967y1s6sf4IuD
+0iOk02oZP3KkqrInjhrFF1u3Eh1pS2/4o6IoDr4NdwKw7cpQ2+GHvyHoGxvL51u3Eh4mDaW3djru
+SdHSZrbN+mZOmWKjU4OUpCQ+3byZoEBbWs4v7O+7E4Ctl8rOu/GbvKWlpnL3nDkAnLrY6pD4tO+7
+Jlra5PXi+fO9Lnv8yJHMmTbNejnV4ukC/h8SAGAbZtvNcOhEh/m961CH+t8xc6ZPZc9KT7eeBgNT
+rBfuBHAVy2ZvnYaVG4aJo22LUzl6psPlb402j73pJnp5of72mOI4UtxiPXEpAIt7KRPg07177d3S
+Nwz2mmZdn1jfZCa7UI4A41yk2ahBZk6O/eUV64knS/BvAHUNDWzcts3nl6vFkZMnbeezJ8nI0qmL
+rTZrc9xNnXcwUI+Dx2y7nJiRe5ABngXwAZa+4PVt2+yjsj2O5tZWdh84AMDAJJ1tNan9qnNfBVBT
+V2efU3BaCGEb4TytGWoH1gI0NjXxwKpV1N+ApmBqb+fB1atteYR3Tu9o5z9elPOE8LAwe6NGNdr0
+eu594gnKq2xxVIdUejXJ0p8APwF8d/Iks5csobisW2k5DjAYjTz5/PP8+8gRAG4ZG8w6u1zkkxcs
+HeCIEV5HnNv0eh55+mlOnDlj/Wk/sM6exmPuixBCKIoyA9khxl/JyeHmu+5ixuTJzJg8mdHDhpFX
+VMT5zEy0/v48uHixqi9lam/nH//6F+s3b6aoVKb5pCXr+OL1frYJUXm1iWsVRltlikpLSYqP91i2
+3mDgvR07+Nubb1LWkVB1Bri384TIm+DodOw6Dzd0TJ04kfvuuINBycn0i48nvk8fGpuayCksJLeg
+gJyCAj7es8ch2Smxj5Yj7yc7JGLs/raRhSuLbdcajYaZU6bws/nzSe3fn6SEBPrGxFBbX09uYSE5
+hYVczc9n+65dnXOU85BLbbuqrlcbjsiNoUR0bz8RoHO9T0jnQ1Fc00ZH+IkNT/cRLT8NFeLiMIfj
++ceju1U2cjr/SyDAVZ3Up39JFAHxyQk6jryfzJFTzVzO1TN8YABjhgaRXaDn7c/q+GR/A82tHaas
+My2LiZDrgFY/GNVliawV1g4QuQPvz5F2/M+QO/e4LBvpIv8fYJOnJAqv9hVWFOVz4K5+cVqKDgxy
+SdfYLL0+hWVGCkuNFJUZ6RWqYUhKAGnJOtJSdKr2H7FzgWUityk6j1TnFKC/5UhCTtyyLHSZQojr
+auvkrQbUAR6XwoSFaJg23ncPMMj5v53/bwjwit3tPcByIcS1Lg96CW8FAEi1+/5MC3uPNHH6ShuX
+cvSqV4grigx5jxkSyOTRwSxZEI6fkxZgp/7OsAC4pCjKCiHER77UwcaPl03gPeAhnVZGebu/fQFM
+vCmIbeviGZLiGID91YYKXt4mNfnPCwYhhKCoto2TRfWcLbEZYybgZiHEaXyEtxqgBRy+dnigP0kR
+gQTr1IXPTWbBtbo2KhsNCKShM+aePL7a0t+h2VgNoKgQLQnhUjiJvQOZktKbI7m1vHOixMr/u4qi
+TPAlN8BagDewzSn79Q7k0UkJ9I9U79e3R6PexEc/lXO8oI42veCh35Zw/rNUwkI0tJuxrQQdENW1
+/GmpEeTXtHLoag3ASOQG75/4wodqASiKMg1IA1n5tfNS8df4ngwZFuDP41MSiQzWsudyFQUlRibc
+n0dclD9FZUbbMJoS6bwzXTg8xioAgLH4KABvtqO17XL52OTEblXeHotGxhLXS6p4Vr6Bw6daHMJf
+KU40ACAiWEt4oO37jfX1/d40gTEg22S/iJ7bEMFfozA6Poz9DXIFWZ+wACKD/YkM1hIRrCXFTRPr
+0yuA+jYTQKxLIk/v94J2OEBSD1beiqTIjjKXTU5gYLQ6G6In/kGKN2UEAISo7O29QaB/BxveZKTU
+tNiais+eGm8EIMA7BtXCIblSZdfSajRT1WQb+TxGgV3BGwHkAZTUe7cljhqU1ndYfbGh6nIRv82p
+wU5uP/n6bm8EcAagtEFPi8HDv0bxElmVcsIWGuBHZLDnvOLc6hZ2nrPFEMtw3JLcK3gjgO8B2s2C
+D3/qOZfY6WsNXCqXYS93nZ8QUvs+PVfBuq/zMXW0m8eFEJ72d3cJbzxCfsgV2hMBFgyLYdHI2G7Z
+Az8WNfDeyRKaLRoVFuCHxoXfr9VkxmBymIUK4K9CiDU+M4D3k6FhyO3/AwD6hOkYFhcq5wJa7+YC
+OdUtXK3yecFHIfCIEOKgR0oP8PofLVlWkLyHZWFVD6Ad6ejI9kDXaqE7DZwQQqjbrNATfNmLFxlg
+XI/cVMGESt9gp6MU2EkPbJDenaMn/tdYMNJjozaXXgAFooe3x/UV/xeB7lDTHMDWqAAAAABJRU5E
+rkJggg==
+"
+       height="1357.7144"
+       width="775.83673" />
+    <path
+       style="fill:#ffd5d5;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1095.0581,2713.8883 c -52.4418,0 -94.9687,57.429 -94.9687,128.2813 0,64.5882 35.3397,118.0243 81.3125,126.9687 19.1796,34.5631 65.1089,58.9063 118.71883,58.9063 70.8522,0 128.28119,-42.4957 128.28119,-94.9375 0,-52.4418 -57.42899,-94.9688 -128.28119,-94.9688 -3.4173,0 -6.8064,0.1184 -10.15633,0.3126 -1.4568,-69.1321 -43.3852,-124.5626 -94.9063,-124.5626 z"
+       id="path4087"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4085"
+       sodipodi:cx="-33.335033"
+       sodipodi:cy="2256.4641"
+       sodipodi:rx="130.30968"
+       sodipodi:ry="96.974648"
+       d="m 96.974644,2256.4641 a 130.30968,96.974648 0 1 1 -260.619354,0 130.30968,96.974648 0 1 1 260.619354,0 z"
+       transform="translate(-1048.4543,454.99938)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -995.1069,2091.4655 c -124.2635,0 -219.4386,64.2011 -210.1225,167.1979 39.6206,26.2252 54.6797,282.2163 -25.5323,288.9007 -102.8572,8.5715 157.1562,65.7187 157.1562,65.7187 l 57.125,-154.2813 -41.1704,-88.3313 c 58.49387,27.4759 111.3648,51.1751 182.60794,51.1751 41.67206,0 166.74209,-15.418 204.66531,-25.3515 15.64404,-31.0636 -44.22162,-60.098 -44.22162,-97.2516 0,-127.0255 -153.48214,-207.7767 -280.50763,-207.7767 z"
+       id="path4065"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scscccscss"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -998.03079,2308.9919 c 185.86814,111.1168 278.80217,18.1828 278.80217,18.1828"
+       id="path4077"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1125.31,2117.063 c 242.43666,-96.9747 288.90368,133.34 288.90368,133.34 45.79358,-71.3841 110.69086,-147.9923 140.32199,-227.4576 29.63114,-79.4653 -128.20018,-122.0551 -237.29666,-126.0957 -111.09581,-4.1146 -228.29451,111.1167 -228.29451,111.1167 z"
+       id="path4079"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsscc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/plume.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4081"
+       sodipodi:cx="-1595.0309"
+       sodipodi:cy="2043.3219"
+       sodipodi:rx="47.477169"
+       sodipodi:ry="47.477169"
+       d="m -1547.5537,2043.3219 a 47.477169,47.477169 0 1 1 -94.9544,0 47.477169,47.477169 0 1 1 94.9544,0 z"
+       transform="translate(567.70575,244.45691)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:30;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m -1056.4375,1976.9375 -28.625,8.9687 33.625,107.3438 28.6563,-8.9688 -33.6563,-107.3437 z"
+       id="path4100"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/plume.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:30;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m -941.4375,1931.5 -30.9375,164.625 29.5,5.5312 30.9375,-164.625 -29.5,-5.5312 z"
+       id="path4102"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/plume.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:30;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m -812.5,1982.375 -101.09375,148.6875 24.8125,16.875 L -787.6875,1999.25 -812.5,1982.375 z"
+       id="path4104"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/plume.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001" />
+    <path
+       inkscape:export-filename="/home/tomm/LudumDare28/img/plume.png"
+       inkscape:export-xdpi="6.9200001"
+       inkscape:export-ydpi="6.9200001"
+       style="fill:#ffffff;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M -938.65625 1911.75 C -940.23528 1911.7449 -941.82166 1911.765 -943.40625 1911.8125 C -990.94394 1913.2372 -1041.7024 1937.6813 -1080.9688 1963.4062 C -1111.1274 1983.1646 -1133.7944 2002.7535 -1144.375 2012.375 L -1115.9688 2097.6562 C -1094.2648 2089.9332 -1073.9524 2084.8442 -1054.9688 2081.9375 L -1085.0625 1985.9062 L -1056.4375 1976.9375 L -1024.4375 2079.0312 C -1004.6818 2078.3898 -986.59171 2080.2872 -970.125 2084.125 L -941.4375 1931.5 L -911.9375 1937.0312 L -941.3125 2093.4062 C -927.00429 2099.3713 -914.23034 2106.8868 -902.9375 2115.4062 L -812.5 1982.375 L -787.6875 1999.25 L -880.40625 2135.5938 C -879.90364 2136.1259 -879.40022 2136.6519 -878.90625 2137.1875 C -854.32527 2163.8415 -839.82212 2193.7648 -831.46875 2215.8125 C -787.45124 2151.1981 -734.94593 2084.284 -710.125 2017.7188 C -704.39353 2002.348 -707.10817 1991.8946 -716.96875 1979.7188 C -726.82933 1967.5428 -745.22372 1955.3833 -768.59375 1945.4062 C -815.33381 1925.4524 -881.06982 1913.8018 -933.9375 1911.8438 C -935.50554 1911.7857 -937.07722 1911.7551 -938.65625 1911.75 z "
+       id="path4132" />
+    <rect
+       style="opacity:1;fill:#e9c6af;fill-opacity:1;stroke:none"
+       id="rect4144"
+       width="1442.3617"
+       height="891.42859"
+       x="1874.2858"
+       y="1983.7908"
+       rx="48.242229"
+       ry="48.242229" />
+    <g
+       id="g4161"
+       transform="translate(-45.714286,-194.28572)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/target.png"
+       inkscape:export-xdpi="3.48"
+       inkscape:export-ydpi="3.48">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:40;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 1491.4286,3458.0893 c 0,251.4271 0,502.8541 0,754.2812 l 377.1562,0 0,-377.1562 377.125,0 0,-377.125 c -251.4271,0 -502.8541,0 -754.2812,0 z"
+         id="rect4146"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:40;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 3794.2813,3480.9464 c 0,251.4271 0,502.8541 0,754.2812 l -377.1562,0 0,-377.1562 -377.125,0 0,-377.125 c 251.4271,0 502.8541,0 754.2812,0 z"
+         id="path4151"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:40;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1508.5715,5646.6562 c 0,-251.4271 0,-502.8541 0,-754.2812 l 377.1562,0 0,377.1562 377.125,0 0,377.125 c -251.4271,0 -502.8541,0 -754.2812,0 z"
+       id="path4157"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/target.png"
+       inkscape:export-xdpi="3.48"
+       inkscape:export-ydpi="3.48" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:40;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 3885.7098,5698.0848 c 0,-251.4271 0,-502.8541 0,-754.2812 l -377.1562,0 0,377.1562 -377.125,0 0,377.125 c 251.4271,0 502.8541,0 754.2812,0 z"
+       id="path4159"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/target.png"
+       inkscape:export-xdpi="3.48"
+       inkscape:export-ydpi="3.48" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 2479.9955,4058.0893 0,360 -297.125,0 0,308.5625 297.125,0 0,314.2813 308.5626,0 0,-314.2813 377.1562,0 0,-308.5625 -377.1562,0 0,-360 -308.5626,0 z"
+       id="rect4187"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/target.png"
+       inkscape:export-xdpi="3.48"
+       inkscape:export-ydpi="3.48"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

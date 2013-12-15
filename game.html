@@ -1,0 +1,239 @@
+<html>
+  <head>
+    <title>Ludum Dare 28</title>
+    <script type='text/javascript'>
+
+
+// A cross-browser requestAnimationFrame
+// See https://hacks.mozilla.org/2011/08/animating-with-javascript-from-setinterval-to-requestanimationframe/
+var requestAnimFrame = (function(){
+  return window.requestAnimationFrame       ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame    ||
+    window.oRequestAnimationFrame      ||
+    window.msRequestAnimationFrame     ||
+    function(callback){
+      window.setTimeout(callback, 1000 / 60);
+    };
+})();
+
+    </script>
+  </head>
+  <body>
+    <div style="margin: auto;width: 1280px;">
+      <canvas id="gameCanvas" width="1440" height="800">Nope.</canvas>
+      <p id="fps"><p>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="player.js"></script>
+    <script src="arrow.js"></script>
+    <script>
+var playerImage = new Image();
+playerImage.src = "img/guy.png";
+var playerImage2 = new Image();
+playerImage2.src = "img/guy2.png";
+var targetImage = new Image();
+targetImage.src = "img/target.png";
+var arrowImage = new Image();
+arrowImage.src = "img/sword.png";
+var tileImage = new Image();
+tileImage.src = "img/tile.png";
+var plumeImage = new Image();
+plumeImage.src = "img/plume.png";
+
+$(function() {
+
+  var $document = $(document);
+
+  var players = [];
+  var arrow = new Arrow(arrowImage);
+
+   // Let us open a web socket
+  var ws = new WebSocket("ws://localhost:8080");
+    ws.onopen = function() {
+  };
+  ws.onmessage = function (evt) { 
+    var received = evt.data;
+    var res = received.split(":")
+    arrow.x = parseFloat(res[1]);
+    arrow.y = parseFloat(res[2]);
+    var arrowPlayerIndex = parseInt(res[3]);
+    var arrowTargetIndex = parseInt(res[4]);
+    arrow.firing = res[5] == '1';
+    for(var i = 6; i < res.length; i+= 7) {
+      if(res[i]) {
+        var playerIndex = parseInt(res[i]);
+        var playerX = parseFloat(res[i+1]);
+        var playerY = parseFloat(res[i+2]);
+        var playerDirection = parseInt(res[i+3]);
+        var playerWalking = res[i+4] == "1";
+        var playerScore = parseInt(res[i+5]);
+
+        if(playerIndex >= players.length) {
+          players[playerIndex] = new Player(playerImage, playerImage2, plumeImage);
+          document.title = 'Ludum Dare 28 | '+players.length+' players';
+        }
+
+        players[playerIndex].x = playerX;
+        players[playerIndex].y = playerY;
+        players[playerIndex].score = playerScore;
+        players[playerIndex].direction = playerDirection;
+        players[playerIndex].walking = playerWalking;
+        players[playerIndex].disconnected = res[i+6] == "1";
+      }
+    }
+
+    if(arrowPlayerIndex > -1) {
+      arrow.player = players[arrowPlayerIndex];
+    } else {
+      arrow.player = null;
+    }
+
+    if(arrowTargetIndex > -1) {
+      arrow.target = players[arrowTargetIndex];
+    } else {
+      arrow.target = null;
+    }
+  };
+  ws.onclose = function() { 
+    // websocket is closed.
+    console.log("Connection is closed..."); 
+  };
+
+  var keys = {
+    left: false,
+    right: false,
+    up: false,
+    down: false,
+    fire: false,
+    music: false
+  };
+
+  function addKey(key) {
+    return key ? '1' : '0';
+  }
+
+  function sendKeys() {
+    var k = '';
+    k += addKey(keys.left);
+    k += addKey(keys.right);
+    k += addKey(keys.up);
+    k += addKey(keys.down);
+    k += addKey(keys.fire);
+
+    ws.send(k);
+  }
+
+  $document.keydown(function(e) {
+    if(e.keyCode==37) {
+      keys['left'] = true;
+
+      e.preventDefault();
+    } else if(e.keyCode==39) {
+      keys['right'] = true;
+
+      e.preventDefault();
+    } else if(e.keyCode==32) {
+      keys['fire'] = true;
+
+      e.preventDefault();
+    } else if(e.keyCode==77) {
+      keys['music'] = true;
+    } else if(e.keyCode==38) {
+      keys['up'] = true;
+    } else if(e.keyCode==40) {
+      keys['down'] = true;
+    }
+
+    sendKeys();
+  });
+
+  $document.keyup(function(e) {
+    if(e.keyCode==37) {
+      keys['left'] = false;
+
+      e.preventDefault();
+    } else if(e.keyCode==39) {
+      keys['right'] = false;
+
+      e.preventDefault();
+    } else if(e.keyCode==32) {
+      keys['fire'] = false;
+
+      e.preventDefault();
+    } else if(e.keyCode==77) {
+      keys['music'] = false;
+    } else if(e.keyCode==38) {
+      keys['up'] = false;
+    } else if(e.keyCode==40) {
+      keys['down'] = false;
+    }
+
+    sendKeys();
+  });
+
+  var $canvas = $("canvas");
+  canvas = $("canvas").get(0);
+  context = canvas.getContext('2d');
+
+  $canvas.width(Math.min($canvas.width(), $(window).width() - 50));
+  $canvas.height(Math.min($canvas.height(), $(window).height() - 50));
+
+  var $fps = $("#fps");
+  var fps = 0;
+
+  var previousTs = -1;
+
+  var game = {};
+  function render() {
+    var nts = Date.now();
+    var dt = 0
+    if(previousTs > -1) {
+      dt = Math.min(100, nts - previousTs);
+
+      var thisFrameFPS = 1000 / (dt);
+      fps += (thisFrameFPS - fps) / 50;
+      $fps.text(""+fps);
+
+
+    }
+    previousTs = nts;
+
+    canvas.width = canvas.width;
+    context.fillStyle="#e9c6af";
+    context.fillRect(0,0,canvas.width,canvas.height);
+
+    for(var i in players) {
+      if(!players[i].disconnected) {
+        players[i].render(context, nts);
+      }
+    }
+
+    arrow.render(context, nts);
+
+    if(arrow.target != null) {
+      context.drawImage(targetImage, arrow.target.x-(targetImage.width/2), arrow.target.y-(targetImage.height/2), targetImage.width, targetImage.height);
+    }
+
+    var textX = 10;
+    for(var i in players) {
+      if(!players[i].disconnected) {
+        context.strokeStyle = '#101010';
+        context.font = "bold 36px sans";
+        context.fillStyle = players[i].color;
+        context.lineWidth = 4;
+        context.strokeText(players[i].score, textX, 40);
+        context.fillText(players[i].score, textX, 40);
+        textX+=120;
+      }
+    }
+    
+    requestAnimFrame(render);
+  }
+
+  requestAnimFrame(render);
+});
+
+    </script>
+  </body>
+</html> 
