@@ -7,7 +7,7 @@ var Arrow = require('./arrow');
 var Shield = require('./shield');
 
 var width = 1440;
-var height = 800;
+var height = 700;
 
 var players = [];
 var arrow = new Arrow(width, height);
