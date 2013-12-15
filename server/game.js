@@ -28,6 +28,7 @@ wss.on('connection', function(newWs) {
   var index = getNextAvailableIndex();
   var player = new Player(newWs, index, width, height);
   players[index] = player;
+  console.log("Player joined");
 });
 
 var previousTs = -1;
