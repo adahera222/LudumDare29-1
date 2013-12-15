@@ -29,6 +29,8 @@ wss.on('connection', function(newWs) {
 });
 
 var previousTs = -1;
+var gameState = "p";
+var stateTimeout = null;
 
 function removePlayer(player) {
   if(player == arrow.player ||
@@ -45,44 +47,73 @@ function gameLoop() {
   }
   previousTs = nts;
 
-  var totalPlayerCount = 0;
-  for(var i in players) {
-    if(players[i] && !players[i].disconnected) {
-      totalPlayerCount ++;
-    }
-  }
+  if(gameState == "p") {
 
-  if(totalPlayerCount < 4) {
-    var index = getNextAvailableIndex();
-    var player = new Bot(null, index, width, height);
-    players[index] = player;
-  }
-
-  if(totalPlayerCount > 4) {
     for(var i in players) {
-      if(players[i].isBot && !players[i].disconnected) {
-        players[i].disconnected = true;
-        removePlayer(players[i]);
-        break;
+      if(players[i] && !players[i].disconnected && players[i].score >= 5) {
+        gameState = "s";
+        stateTimeout = nts + 5000;
       }
     }
-  }
 
-  for(var i in players) {
-    if(players[i] && players[i].isBot && !players[i].disconnected) {
-      players[i].updateBot(arrow, nts);
+    var totalPlayerCount = 0;
+    for(var i in players) {
+      if(players[i] && !players[i].disconnected) {
+        totalPlayerCount ++;
+      }
+    }
+
+    if(totalPlayerCount < 4) {
+      var index = getNextAvailableIndex();
+      var player = new Bot(null, index, width, height);
+      players[index] = player;
+    }
+
+    if(totalPlayerCount > 4) {
+      for(var i in players) {
+        if(players[i].isBot && !players[i].disconnected) {
+          players[i].disconnected = true;
+          removePlayer(players[i]);
+          break;
+        }
+      }
+    }
+
+    for(var i in players) {
+      if(players[i] && players[i].isBot && !players[i].disconnected) {
+        players[i].updateBot(arrow, nts);
+      }
+    }
+
+    for(var i in players) {
+      if(players[i] && !players[i].disconnected) {
+        players[i].update(dt, nts);
+      }
+    }
+
+    arrow.update(dt, players, nts);
+  } else if (gameState == "s") {
+    if(nts > stateTimeout) {
+      stateTimeout = nts + 5000;
+      gameState = "n";
+
+      arrow.reset();
+      for(var i in players) {
+        if(players[i] && !players[i].disconnected) {
+          players[i].reset();
+        }
+      }
+    }
+  } else if (gameState == "n") {
+    if(nts > stateTimeout) {
+      stateTimeout = null;
+      gameState = "p";
     }
   }
-
-  for(var i in players) {
-    if(players[i] && !players[i].disconnected) {
-      players[i].update(dt, nts);
-    }
-  }
-
-  arrow.update(dt, players, nts);
 
   var state = '';
+  state += gameState;
+  state += ':'
   state += 'a';
   state += ':'
   state += arrow.x;

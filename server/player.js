@@ -11,7 +11,7 @@ function Player(ws, index, gameWidth, gameHeight) {
   this.disconnected = false;
   this.walking = false;
 
-  this.hasArrow = false;
+  this.arrow = null;
 
   this.direction = 1;
 
@@ -31,6 +31,17 @@ function Player(ws, index, gameWidth, gameHeight) {
   var speed = 0.4;
 
   var self = this;
+
+
+  this.reset = function() {
+    this.x = Math.random()*gameWidth;
+    this.y = Math.random()*gameHeight;
+
+    this.score = 0;
+    this.walking = false;
+    this.arrow = null;
+    this.hit = false;
+  }
 
   if(ws) {
     ws.on('message', function(message) {

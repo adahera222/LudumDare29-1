@@ -15,7 +15,9 @@ function Arrow(gameWidth, gameHeight) {
 
   this.reset = function() {
     this.firing = false;
-    this.player.arrow = null;
+    if(this.player != null) {
+      this.player.arrow = null;
+    }
     this.player = null;
     this.target = null;
     this.timeout = null;
