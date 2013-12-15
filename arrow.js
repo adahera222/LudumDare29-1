@@ -1,4 +1,4 @@
-function Arrow(img) {
+function Arrow(img, shadowImg) {
   this.x = 0;
   this.y = 0;
 
@@ -15,6 +15,9 @@ function Arrow(img) {
 
     context.translate(x, this.y);
     rotation = ((time % 750) / 750) * (2 * Math.PI);
+
+    context.drawImage(shadowImg, -img.width/2,(img.height/2)-(shadowImg.height*0.5));
+
     if(this.firing) {
       context.rotate(rotation);
     }

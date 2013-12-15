@@ -12,7 +12,13 @@ function tintImage(img, color) {
   return buffer;
 }
 
-function Player(image1, image2, plumeImg) {
+function Player(image1, image2, plumeImg, shadowImg, footPrintImage) {
+
+  var footPrints = [];
+  var footPrintIndex = 0;
+  for(var i = 0; i < 10; i++) {
+    footPrints.push(new FootPrint(footPrintImage, i % 2 == 0));
+  }
 
   var colorInt = (Math.random()*0xFFFFFF<<0)
   this.color = '#'+colorInt.toString(16)
@@ -33,9 +39,35 @@ function Player(image1, image2, plumeImg) {
   this.width = 64;
   this.height = 123;
 
+  var timeSinceLastFootprint = null;
+
+  this.updateFootprints = function(time) {
+    var nextFootPrint = footPrints[footPrintIndex];
+    if(this.timeSinceLastFootprint == null) {
+      this.timeSinceLastFootprint = time;
+    }
+
+    if((time - this.timeSinceLastFootprint) > 200 && this.walking) {
+      this.timeSinceLastFootprint = time;
+      nextFootPrint.show(this.x, this.y+(this.height/2));
+      footPrintIndex ++;
+
+      if(footPrintIndex >= footPrints.length) {
+        footPrintIndex = 0;
+      }
+    }
+  }
+
+  this.renderFootprints = function(context, time) {
+    for(var i in footPrints) {
+      footPrints[i].render(context);
+    }
+  }
+
 
   this.render = function(context, time) {
     context.translate(this.x, this.y);
+    context.drawImage(shadowImg, -this.width/2,(this.height/2)-(shadowImg.height*1.5));
     context.scale(this.direction, 1);
 
     context.drawImage((this.walking && time % 500 > 250) ? img1 : img2, -this.width/2,-this.height/2);

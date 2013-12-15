@@ -34,7 +34,7 @@ function Player(ws, index, gameWidth, gameHeight) {
     keys.fire = message[4] == '1';
   });
 
-  this.update = function(dt) {
+  this.update = function(dt, nts, nextFootPrint) {
     if(keys.left) {
       this.x -= dt*speed;
       this.direction = -1;

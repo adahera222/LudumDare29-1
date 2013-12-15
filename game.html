@@ -27,6 +27,7 @@ var requestAnimFrame = (function(){
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="player.js"></script>
     <script src="arrow.js"></script>
+    <script src="footprint.js"></script>
     <script>
 var playerImage = new Image();
 playerImage.src = "img/guy.png";
@@ -36,17 +37,19 @@ var targetImage = new Image();
 targetImage.src = "img/target.png";
 var arrowImage = new Image();
 arrowImage.src = "img/sword.png";
-var tileImage = new Image();
-tileImage.src = "img/tile.png";
+var shadowImage = new Image();
+shadowImage.src = "img/shadow.png";
 var plumeImage = new Image();
 plumeImage.src = "img/plume.png";
+var footPrintImage = new Image();
+footPrintImage.src = "img/footprint.png";
 
 $(function() {
 
   var $document = $(document);
 
   var players = [];
-  var arrow = new Arrow(arrowImage);
+  var arrow = new Arrow(arrowImage, shadowImage);
 
    // Let us open a web socket
   var ws = new WebSocket("ws://localhost:8080");
@@ -70,7 +73,7 @@ $(function() {
         var playerScore = parseInt(res[i+5]);
 
         if(playerIndex >= players.length) {
-          players[playerIndex] = new Player(playerImage, playerImage2, plumeImage);
+          players[playerIndex] = new Player(playerImage, playerImage2, plumeImage, shadowImage, footPrintImage);
           document.title = 'Ludum Dare 28 | '+players.length+' players';
         }
 
@@ -202,6 +205,18 @@ $(function() {
     canvas.width = canvas.width;
     context.fillStyle="#e9c6af";
     context.fillRect(0,0,canvas.width,canvas.height);
+
+    for(var i in players) {
+      if(!players[i].disconnected) {
+        players[i].updateFootprints(nts);
+      }
+    }
+
+    for(var i in players) {
+      if(!players[i].disconnected) {
+        players[i].renderFootprints(context, nts);
+      }
+    }
 
     for(var i in players) {
       if(!players[i].disconnected) {
