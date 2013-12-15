@@ -55,8 +55,17 @@ crowd1Image.src = "img/crowd1.png";
 var crowd2Image = new Image();
 crowd2Image.src = "img/crowd2.png";
 
+var pickupSounds = [new Audio("sound/pickup1.ogg"), new Audio("sound/pickup2.ogg"), new Audio("sound/pickup3.ogg")];
+var pickupOwnSounds = [new Audio("sound/pickupOwn1.ogg"), new Audio("sound/pickupOwn2.ogg"), new Audio("sound/pickupOwn3.ogg")];
+var hurtSounds = [new Audio("sound/hurt1.ogg"), new Audio("sound/hurt2.ogg"), new Audio("sound/hurt3.ogg")];
+var shieldHitSounds = [new Audio("sound/shield_hit1.ogg"), new Audio("sound/shield_hit2.ogg"), new Audio("sound/shield_hit3.ogg")];
+
 var yourIndex = 0;
 var gamestate = "p";
+
+function playSound(sounds) {
+  sounds[Math.floor(Math.random()*hurtSounds.length)].play();
+}
 
 var app = function() {
 
@@ -111,20 +120,42 @@ var app = function() {
         players[playerIndex].direction = playerDirection;
         players[playerIndex].walking = playerWalking;
         players[playerIndex].isBot = res[i+6] == "1";
+
+        if(res[i+7] == "1" && !players[playerIndex].hit) {
+          playSound(hurtSounds);
+        }
+
         players[playerIndex].hit = res[i+7] == "1";
         players[playerIndex].disconnected = res[i+8] == "1";
       }
     }
 
     if(arrowPlayerIndex > -1) {
+      if(arrow.player == null) {
+        if(arrowPlayerIndex == yourIndex) {
+          playSound(pickupOwnSounds);
+        } else {
+          playSound(pickupSounds);
+        }
+      }
       arrow.player = players[arrowPlayerIndex];
     } else {
       arrow.player = null;
     }
 
     if(shieldPlayerIndex > -1) {
+      if(shield.player == null) {
+        if(shieldPlayerIndex == yourIndex) {
+          playSound(pickupOwnSounds);
+        } else {
+          playSound(pickupSounds);
+        }
+      }
       shield.player = players[shieldPlayerIndex];
     } else {
+      if(shield.player != null) {
+        playSound(shieldHitSounds);
+      }
       shield.player = null;
     }
 
