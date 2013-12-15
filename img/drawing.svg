@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12374369"
-     inkscape:cx="6915.8286"
-     inkscape:cy="1451.3479"
+     inkscape:zoom="0.175"
+     inkscape:cx="7090.0555"
+     inkscape:cy="-4891.9517"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,30 +52,6 @@
     </filter>
     <filter
        inkscape:collect="always"
-       id="filter4711"
-       x="-1.1085852"
-       width="3.2171703"
-       y="-7.9892324"
-       height="16.978465">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="131.97443"
-         id="feGaussianBlur4713" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4715"
-       x="-1.3197443"
-       width="3.6394886"
-       y="-31.956906"
-       height="64.913811">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="131.97443"
-         id="feGaussianBlur4717" />
-    </filter>
-    <filter
-       inkscape:collect="always"
        id="filter4719"
        x="-0.20099694"
        width="1.4019939"
@@ -88,51 +64,11 @@
     </filter>
     <filter
        inkscape:collect="always"
-       id="filter4723"
-       x="-0.20203303"
-       width="1.4040661"
-       y="-0.89316075"
-       height="2.7863215">
+       id="filter5003">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="131.97443"
-         id="feGaussianBlur4725" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4727"
-       x="-0.093766522"
-       width="1.187533"
-       y="-4.3455698"
-       height="9.6911396">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="131.97443"
-         id="feGaussianBlur4729" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4731"
-       x="-0.15871639"
-       width="1.3174328"
-       y="-1.6026218"
-       height="4.2052436">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="131.97443"
-         id="feGaussianBlur4733" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4735"
-       x="-0.12286648"
-       width="1.245733"
-       y="-2.0357627"
-       height="5.0715253">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="131.97443"
-         id="feGaussianBlur4737" />
+         stdDeviation="1.1337768"
+         id="feGaussianBlur5005" />
     </filter>
   </defs>
   <metadata
@@ -151,63 +87,366 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
+    <g
+       id="g5179"
+       transform="matrix(0.8798455,0,0,0.8798455,-328.76276,814.31033)"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd1.png"
+       inkscape:export-xdpi="8.7200003"
+       inkscape:export-ydpi="8.7200003">
+      <path
+         id="path5181"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         style="fill:#067806;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         id="path5183"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccsc"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path5185"
+         sodipodi:cx="158.59395"
+         sodipodi:cy="2041.3015"
+         sodipodi:rx="188.89853"
+         sodipodi:ry="188.89853"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         transform="translate(6850.0435,3816.8092)"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 6804.6555,6014.5335 c 49.8275,-16.3513 108.1407,24.9548 130.2325,92.275 20.1386,61.3683 3.2221,123.1593 -37.6701,145.9922 -7.4466,38.8203 -43.4961,76.2707 -94.4334,92.9863 -67.32,22.0917 -135.1362,-0.3792 -151.4877,-50.2066 -16.3512,-49.8274 24.9548,-108.1408 92.2748,-130.2325 3.2471,-1.0656 6.504,-2.0097 9.7476,-2.8698 -20.1713,-66.1399 2.3836,-131.8803 51.3363,-147.9446 z"
+         id="path5187"
+         inkscape:transform-center-x="108.57143"
+         inkscape:transform-center-y="-186.66203" />
+    </g>
     <path
-       inkscape:connector-curvature="0"
-       id="path4025"
-       d="m 5341.6866,-968.97711 -816.2032,155.5872 129.2995,82.69951 476.792,116.33998 961.6652,-112.13493 -379.8173,-179.41585 z"
-       style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4983"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(1,0,0,0.69852941,614.17276,-3484.7639)"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-ydpi="6.2600002" />
     <path
-       inkscape:connector-curvature="0"
-       id="path4027"
-       d="m 5689.1791,-912.90963 654.5789,-58.87084 1058.6398,72.8877 1026.315,-58.87084 638.4164,4.20507"
-       style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       transform="matrix(0.31428571,0,0,0.21953781,3960.4907,-2726.9901)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4985"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-ydpi="6.2600002" />
     <path
-       sodipodi:nodetypes="cccc"
-       inkscape:connector-curvature="0"
-       id="path4029"
-       d="m 8242.4098,-883.19749 -840.012,-18.49866 -32.3248,197.63779 -1123.2897,-28.03373"
-       style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4987"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.44911717,0,0,0.31372155,2686.9267,-2359.5493)"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-ydpi="6.2600002" />
     <path
-       inkscape:connector-curvature="0"
-       id="path4031"
-       d="m 7337.7481,-702.65668 888.9342,119.14336 824.2845,-79.89613 864.6906,-75.69107"
-       style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       transform="matrix(0.28298829,0,0,0.19767565,5933.1316,-2850.2167)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4989"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-ydpi="6.2600002" />
     <path
-       inkscape:connector-curvature="0"
-       id="path4033"
-       d="m 9018.6419,-659.20439 1575.8381,47.65734"
-       style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       transform="matrix(0.67278195,0,0,0.46995798,4230.5833,-1924.4453)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4991"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-ydpi="6.2600002" />
     <path
-       inkscape:connector-curvature="0"
-       id="path4035"
-       d="m 4549.7897,-813.96136 -177.1428,13.87599 -108.5715,25.7697"
-       style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4993"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.34728625,0,0,0.24258966,3963.3256,-3077.4973)"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-ydpi="6.2600002" />
     <path
-       inkscape:connector-curvature="0"
-       id="path4037"
-       d="m 4366.9326,-804.04993 -240,-9.91143"
-       style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       transform="matrix(0.49627524,0,0,0.34666285,4011.5865,-3385.8555)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4995"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-ydpi="6.2600002" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4997"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.28298829,0,0,0.19767565,5254.4697,-2171.5548)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-ydpi="6.2600002" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(1,0,0,0.69852941,24.24367,1040.6383)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4935"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4937"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.31428571,0,0,0.21953781,3370.5616,1798.4121)" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.44911717,0,0,0.31372155,3414.2365,1519.3553)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4939"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4941"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.28298829,0,0,0.19767565,2046.0646,899.38837)" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4947"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.67278195,0,0,0.46995798,343.51628,1825.1598)" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.34728625,0,0,0.24258966,738.91876,1270.1181)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4949"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4951"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.49627524,0,0,0.34666285,787.17966,961.75987)" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.28298829,0,0,0.19767565,1367.4027,1578.0503)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4953"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4959"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(1,0,0,0.69852941,24.24367,1040.6383)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       transform="matrix(0.31428571,0,0,0.21953781,3370.5616,1798.4121)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4961"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4963"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.44911717,0,0,0.31372155,3414.2365,1519.3553)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       transform="matrix(0.28298829,0,0,0.19767565,2046.0646,899.38837)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4965"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       transform="matrix(0.67278195,0,0,0.46995798,343.51628,1825.1598)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4971"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4973"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.34728625,0,0,0.24258966,738.91876,1270.1181)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       transform="matrix(0.49627524,0,0,0.34666285,787.17966,961.75987)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4975"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#704123;fill-opacity:1;stroke:none"
+       id="path4977"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.28298829,0,0,0.19767565,1367.4027,1578.0503)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
     <path
        style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none"
        d="m -909.88543,4275.2142 c -138.12777,0 -250.11007,50.1993 -250.11007,112.1171 0,61.9179 111.9823,112.1172 250.11007,112.1172 58.68336,0 112.62823,-9.0523 155.28943,-24.2221 32.01583,7.9214 68.79261,12.4039 107.94805,12.4039 123.58796,0 223.78634,-44.8988 223.78634,-100.299 0,-55.4001 -100.19838,-100.2989 -223.78634,-100.2989 -39.15544,0 -75.93222,4.4825 -107.94805,12.4038 -42.6612,-15.1697 -96.60607,-24.222 -155.28943,-24.222 z"
@@ -759,7 +998,7 @@
        inkscape:connector-curvature="0"
        id="path4199"
        d="m 42.563418,5486.6428 c -53.648111,0 -97.141456,19.4972 -97.141456,43.5457 0,24.0486 43.493345,43.5458 97.141456,43.5458 22.792314,0 43.744222,-3.5159 60.313612,-9.4078 12.43478,3.0767 26.71869,4.8176 41.92646,4.8176 48.00093,0 86.91746,-17.4384 86.91746,-38.9556 0,-21.5171 -38.91653,-38.9555 -86.91746,-38.9555 -15.20777,0 -29.49168,1.7409 -41.92646,4.8175 -16.56939,-5.8918 -37.521298,-9.4077 -60.313612,-9.4077 z"
-       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none" />
+       style="opacity:0.25;fill:#704123;fill-opacity:1;stroke:none;filter:url(#filter5003)" />
     <path
        id="path3117"
        style="fill:none;stroke:#9b582b;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3995)"
@@ -786,36 +1025,6 @@
        inkscape:export-xdpi="5.5999999"
        inkscape:export-ydpi="5.5999999" />
     <path
-       style="fill:none;stroke:#9b582b;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4723)"
-       d="m 5341.6866,-965.50811 -816.2032,155.5872 129.2995,82.6995 476.792,116.33998 961.6652,-112.13492 -379.8173,-179.41585 z"
-       id="path3999"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
-    <path
-       style="fill:none;stroke:#9b582b;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4727)"
-       d="m 5689.1791,-909.44064 654.5789,-58.87084 1058.6398,72.88771 1026.315,-58.87084 638.4164,4.20506"
-       id="path4001"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
-    <path
-       style="fill:none;stroke:#9b582b;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4731)"
-       d="m 8242.4098,-879.72849 -840.012,-18.49867 -32.3248,197.63779 -1123.2897,-28.03372"
-       id="path4003"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc"
-       inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
-    <path
-       style="fill:none;stroke:#9b582b;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4735)"
-       d="m 7337.7481,-699.18768 888.9342,119.14336 824.2845,-79.89613 864.6906,-75.69108"
-       id="path4005"
-       inkscape:connector-curvature="0" />
-    <path
        style="fill:none;stroke:#9b582b;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4719)"
        d="m 9018.6419,-655.73539 1575.8381,47.65734"
        id="path4007"
@@ -824,20 +1033,897 @@
        inkscape:export-xdpi="3.24"
        inkscape:export-ydpi="3.24" />
     <path
-       style="fill:none;stroke:#9b582b;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4711)"
-       d="m 4549.7897,-810.49236 -177.1428,13.87599 -108.5715,25.7697"
-       id="path4021"
-       inkscape:connector-curvature="0"
+       inkscape:export-ydpi="8.8599997"
+       inkscape:export-xdpi="8.8599997"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       id="path4739"
+       style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 4238.515,-727.29088 70.8141,132.69459 -35.7408,50.79591 607.593,0 177.6199,143.80227 m -310.1925,-280.03544 -163.7966,-125.55605 -169.239,-25.44414 -80.9465,-44.92072 m 1188.3806,170.70757 -783.3338,26.46245 -510.0934,-48.50644 -627.9944,172.18687 -180.1087,-20.44855"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc" />
     <path
-       style="fill:none;stroke:#9b582b;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4715)"
-       d="m 4366.9326,-800.58093 -240,-9.91143"
-       id="path4023"
-       inkscape:connector-curvature="0"
+       inkscape:export-ydpi="8.8599997"
+       inkscape:export-xdpi="8.8599997"
        inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
-       inkscape:export-xdpi="3.24"
-       inkscape:export-ydpi="3.24" />
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:connector-curvature="0"
+       d="m 5261.1917,-968.48028 -616.5284,60.3264 35.7408,91.9977 -607.593,0 -643.3342,49.0152 m 741.6211,-244.32182 303.7966,-113.1119 -545.0467,-74.6539 795.2322,-52.7856 m -1188.3806,309.17262 643.3338,-66.35892 1090.0934,40.72022 187.9944,297.56611 180.1087,-37.03487"
+       style="fill:none;stroke:#9b582b;stroke-width:26.91560364;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3995)"
+       id="path4741"
+       transform="matrix(-1,0,0,0.55214323,9067.7067,-179.14186)" />
+    <path
+       inkscape:export-ydpi="8.8599997"
+       inkscape:export-xdpi="8.8599997"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 4717.8422,-681.8611 -134.4009,-125.25121 -369.6518,78.16499 z"
+       id="path4743"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="8.8599997"
+       inkscape:export-xdpi="8.8599997"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack2.png"
+       inkscape:connector-curvature="0"
+       id="path4745"
+       d="m 4745.8422,-674.76211 -154.4009,-126.82877 -369.6518,78.16499 z"
+       style="fill:#9b582b;fill-opacity:1;stroke:none"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4747"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(1,0,0,0.69852941,24.24367,1016.6383)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       transform="matrix(0.31428571,0,0,0.21953781,3370.5616,1774.4121)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4749"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4751"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.44911717,0,0,0.31372155,3414.2365,1495.3553)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       transform="matrix(0.28298829,0,0,0.19767565,2046.0646,875.38837)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4753"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       transform="matrix(0.67278195,0,0,0.46995798,343.51628,1801.1598)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4759"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4761"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.34728625,0,0,0.24258966,738.91876,1246.1181)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       transform="matrix(0.49627524,0,0,0.34666285,787.17966,937.75987)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4763"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4765"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.28298829,0,0,0.19767565,1367.4027,1554.0503)"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-ydpi="6.3800001" />
+    <path
+       inkscape:export-ydpi="6.2600002"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(1,0,0,0.69852941,614.17276,-3500.7639)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4771"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.2600002"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4773"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.31428571,0,0,0.21953781,3960.4907,-2742.9901)" />
+    <path
+       inkscape:export-ydpi="6.2600002"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.44911717,0,0,0.31372155,2686.9267,-2375.5493)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4775"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.2600002"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4777"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.28298829,0,0,0.19767565,5933.1316,-2866.2167)" />
+    <path
+       inkscape:export-ydpi="6.2600002"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4783"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.67278195,0,0,0.46995798,4230.5833,-1940.4453)" />
+    <path
+       inkscape:export-ydpi="6.2600002"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.34728625,0,0,0.24258966,3963.3256,-3093.4973)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4785"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.2600002"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4787"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.49627524,0,0,0.34666285,4011.5865,-3401.8555)" />
+    <path
+       inkscape:export-ydpi="6.2600002"
+       inkscape:export-xdpi="6.2600002"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.28298829,0,0,0.19767565,5254.4697,-2187.5548)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4789"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(1,0,0,0.69852941,24.24367,1016.6383)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4795"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4797"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.31428571,0,0,0.21953781,3370.5616,1774.4121)" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.44911717,0,0,0.31372155,3414.2365,1495.3553)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4799"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4801"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.28298829,0,0,0.19767565,2046.0646,875.38837)" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4807"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.67278195,0,0,0.46995798,343.51628,1801.1598)" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.34728625,0,0,0.24258966,738.91876,1246.1181)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4809"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       sodipodi:type="arc"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       id="path4811"
+       sodipodi:cx="3571.8994"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="719.22864"
+       sodipodi:ry="141.42136"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       transform="matrix(0.49627524,0,0,0.34666285,787.17966,937.75987)" />
+    <path
+       inkscape:export-ydpi="6.3800001"
+       inkscape:export-xdpi="6.3800001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crack1.png"
+       transform="matrix(0.28298829,0,0,0.19767565,1367.4027,1554.0503)"
+       d="m 4291.1281,886.69714 a 719.22864,141.42136 0 1 1 -1438.4573,0 719.22864,141.42136 0 1 1 1438.4573,0 z"
+       sodipodi:ry="141.42136"
+       sodipodi:rx="719.22864"
+       sodipodi:cy="886.69714"
+       sodipodi:cx="3571.8994"
+       id="path4813"
+       style="fill:#d69f7c;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <rect
+       style="opacity:0;fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4106-5"
+       width="802.85718"
+       height="1377.1427"
+       x="4955.9277"
+       y="5310.4785"
+       rx="48.242229"
+       ry="48.242229"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd1.png"
+       inkscape:export-xdpi="6.98"
+       inkscape:export-ydpi="6.98" />
+    <g
+       id="g5173"
+       transform="translate(-1657.1429,17.142857)"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd1.png"
+       inkscape:export-xdpi="8.7200003"
+       inkscape:export-ydpi="8.7200003">
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         id="path4096-4" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         sodipodi:nodetypes="csccsc"
+         inkscape:connector-curvature="0"
+         id="path4083-9"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         style="fill:#f3cc34;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         transform="translate(6850.0435,3816.8092)"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         sodipodi:ry="188.89853"
+         sodipodi:rx="188.89853"
+         sodipodi:cy="2041.3015"
+         sodipodi:cx="158.59395"
+         id="path4075-4"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         id="path5073"
+         d="m 6901.001,6076.7815 c 6.2128,52.0725 -45.7735,101.1036 -116.1268,109.4977 -64.1333,7.6519 -121.3798,-21.1082 -135.7077,-65.6977 -36.592,-14.9497 -66.2051,-57.6716 -72.5564,-110.9039 -8.394,-70.3532 26.9987,-132.4123 79.0712,-138.6253 52.0724,-6.2128 101.1037,45.7734 109.4977,116.1266 0.4049,3.3934 0.6888,6.7725 0.8929,10.1219 68.8178,-6.7437 128.8252,28.3224 134.9291,79.4807 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+    </g>
+    <g
+       transform="matrix(0.8798455,0,0,0.8798455,168.38014,860.02462)"
+       id="g5204"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd1.png"
+       inkscape:export-xdpi="8.7200003"
+       inkscape:export-ydpi="8.7200003">
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         id="path5206" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         sodipodi:nodetypes="csccsc"
+         inkscape:connector-curvature="0"
+         id="path5208"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         transform="translate(6850.0435,3816.8092)"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         sodipodi:ry="188.89853"
+         sodipodi:rx="188.89853"
+         sodipodi:cy="2041.3015"
+         sodipodi:cx="158.59395"
+         id="path5210"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:transform-center-y="-186.66203"
+         inkscape:transform-center-x="108.57143"
+         id="path5212"
+         d="m 6804.6555,6014.5335 c 49.8275,-16.3513 108.1407,24.9548 130.2325,92.275 20.1386,61.3683 3.2221,123.1593 -37.6701,145.9922 -7.4466,38.8203 -43.4961,76.2707 -94.4334,92.9863 -67.32,22.0917 -135.1362,-0.3792 -151.4877,-50.2066 -16.3512,-49.8274 24.9548,-108.1408 92.2748,-130.2325 3.2471,-1.0656 6.504,-2.0097 9.7476,-2.8698 -20.1713,-66.1399 2.3836,-131.8803 51.3363,-147.9446 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+    </g>
+    <g
+       id="g5179-7"
+       transform="matrix(1.1562148,0,0,1.1562148,-676.33475,-928.34622)"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd1.png"
+       inkscape:export-xdpi="8.7200003"
+       inkscape:export-ydpi="8.7200003">
+      <path
+         id="path5181-6"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:25.94673729000000151;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:25.94673729000000151;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         id="path5183-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccsc"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:25.94673729000000151;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path5185-5"
+         sodipodi:cx="158.59395"
+         sodipodi:cy="2041.3015"
+         sodipodi:rx="188.89853"
+         sodipodi:ry="188.89853"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         transform="translate(6850.0435,3816.8092)"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:25.94673729000000151;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 6804.6555,6014.5335 c 49.8275,-16.3513 108.1407,24.9548 130.2325,92.275 20.1386,61.3683 3.2221,123.1593 -37.6701,145.9922 -7.4466,38.8203 -43.4961,76.2707 -94.4334,92.9863 -67.32,22.0917 -135.1362,-0.3792 -151.4877,-50.2066 -16.3512,-49.8274 24.9548,-108.1408 92.2748,-130.2325 3.2471,-1.0656 6.504,-2.0097 9.7476,-2.8698 -20.1713,-66.1399 2.3836,-131.8803 51.3363,-147.9446 z"
+         id="path5187-8"
+         inkscape:transform-center-x="108.57143"
+         inkscape:transform-center-y="-186.66203" />
+    </g>
+    <g
+       transform="translate(-143.62866,170.39959)"
+       id="g5173-8"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd1.png"
+       inkscape:export-xdpi="8.7200003"
+       inkscape:export-ydpi="8.7200003">
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         id="path4096-4-7" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         sodipodi:nodetypes="csccsc"
+         inkscape:connector-curvature="0"
+         id="path4083-9-0"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         style="fill:#e3b3b3;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         transform="translate(6850.0435,3816.8092)"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         sodipodi:ry="188.89853"
+         sodipodi:rx="188.89853"
+         sodipodi:cy="2041.3015"
+         sodipodi:cx="158.59395"
+         id="path4075-4-7"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         id="path5073-0"
+         d="m 6901.001,6076.7815 c 6.2128,52.0725 -45.7735,101.1036 -116.1268,109.4977 -64.1333,7.6519 -121.3798,-21.1082 -135.7077,-65.6977 -36.592,-14.9497 -66.2051,-57.6716 -72.5564,-110.9039 -8.394,-70.3532 26.9987,-132.4123 79.0712,-138.6253 52.0724,-6.2128 101.1037,45.7734 109.4977,116.1266 0.4049,3.3934 0.6888,6.7725 0.8929,10.1219 68.8178,-6.7437 128.8252,28.3224 134.9291,79.4807 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+    </g>
+    <g
+       transform="matrix(0.8798455,0,0,0.8798455,1699.0372,933.28139)"
+       id="g5204-6"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd1.png"
+       inkscape:export-xdpi="8.7200003"
+       inkscape:export-ydpi="8.7200003">
+      <path
+         inkscape:export-ydpi="13.64"
+         inkscape:export-xdpi="13.64"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         id="path5206-9" />
+      <path
+         inkscape:export-ydpi="13.64"
+         inkscape:export-xdpi="13.64"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+         sodipodi:nodetypes="csccsc"
+         inkscape:connector-curvature="0"
+         id="path5208-0"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         style="fill:#c78f69;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="13.64"
+         inkscape:export-xdpi="13.64"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+         transform="translate(6850.0435,3816.8092)"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         sodipodi:ry="188.89853"
+         sodipodi:rx="188.89853"
+         sodipodi:cy="2041.3015"
+         sodipodi:cx="158.59395"
+         id="path5210-4"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:transform-center-y="-186.66203"
+         inkscape:transform-center-x="108.57143"
+         id="path5212-4"
+         d="m 6804.6555,6014.5335 c 49.8275,-16.3513 108.1407,24.9548 130.2325,92.275 20.1386,61.3683 3.2221,123.1593 -37.6701,145.9922 -7.4466,38.8203 -43.4961,76.2707 -94.4334,92.9863 -67.32,22.0917 -135.1362,-0.3792 -151.4877,-50.2066 -16.3512,-49.8274 24.9548,-108.1408 92.2748,-130.2325 3.2471,-1.0656 6.504,-2.0097 9.7476,-2.8698 -20.1713,-66.1399 2.3836,-131.8803 51.3363,-147.9446 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713000000211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+         inkscape:export-xdpi="13.64"
+         inkscape:export-ydpi="13.64" />
+    </g>
+    <rect
+       style="opacity:0;fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4106-5-4"
+       width="802.85718"
+       height="1377.1427"
+       x="6338.3989"
+       y="3277.052"
+       rx="48.242229"
+       ry="48.242229"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+       inkscape:export-xdpi="13.64"
+       inkscape:export-ydpi="13.64" />
+    <g
+       inkscape:export-ydpi="8.7256327"
+       inkscape:export-xdpi="8.7256327"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:1;stroke-opacity:1"
+       transform="matrix(0.8798455,0,0,0.8798455,-477.33419,-362.83253)"
+       id="g3761">
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         id="path3763" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         sodipodi:nodetypes="csccsc"
+         inkscape:connector-curvature="0"
+         id="path3765"
+         d="m 7194.6469,5951.3521 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         style="fill:#067806;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         transform="translate(6863.0328,3751.8627)"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         sodipodi:ry="188.89853"
+         sodipodi:rx="188.89853"
+         sodipodi:cy="2041.3015"
+         sodipodi:cx="158.59395"
+         id="path3767"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:transform-center-y="-186.66203"
+         inkscape:transform-center-x="108.57143"
+         id="path3769"
+         d="m 6804.6555,6014.5335 c 49.8275,-16.3513 108.1407,24.9548 130.2325,92.275 20.1386,61.3683 3.2221,123.1593 -37.6701,145.9922 -7.4466,38.8203 -43.4961,76.2707 -94.4334,92.9863 -67.32,22.0917 -135.1362,-0.3792 -151.4877,-50.2066 -16.3512,-49.8274 24.9548,-108.1408 92.2748,-130.2325 3.2471,-1.0656 6.504,-2.0097 9.7476,-2.8698 -20.1713,-66.1399 2.3836,-131.8803 51.3363,-147.9446 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+    </g>
+    <g
+       inkscape:export-ydpi="8.7256327"
+       inkscape:export-xdpi="8.7256327"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       transform="translate(-1800,-1142.8571)"
+       id="g3771">
+      <path
+         id="path3773"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         style="fill:#f3cc34;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         id="path3775"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccsc"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3777"
+         sodipodi:cx="158.59395"
+         sodipodi:cy="2041.3015"
+         sodipodi:rx="188.89853"
+         sodipodi:ry="188.89853"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         transform="translate(6867.1864,3862.5235)"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 6912.4296,6116.7815 c 6.2128,52.0725 -45.7735,101.1036 -116.1268,109.4977 -64.1333,7.6519 -121.3798,-21.1082 -135.7077,-65.6977 -36.592,-14.9497 -66.2051,-57.6716 -72.5564,-110.9039 -8.394,-70.3532 26.9987,-132.4123 79.0712,-138.6253 52.0724,-6.2128 101.1037,45.7734 109.4977,116.1266 0.4049,3.3934 0.6888,6.7725 0.8929,10.1219 68.8178,-6.7437 128.8252,28.3224 134.9291,79.4807 z"
+         id="path3779" />
+    </g>
+    <g
+       inkscape:export-ydpi="8.7256327"
+       inkscape:export-xdpi="8.7256327"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:1;stroke-opacity:1"
+       id="g3781"
+       transform="matrix(0.8798455,0,0,0.8798455,19.808711,-317.11824)">
+      <path
+         id="path3783"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         id="path3785"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccsc"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3787"
+         sodipodi:cx="158.59395"
+         sodipodi:cy="2041.3015"
+         sodipodi:rx="188.89853"
+         sodipodi:ry="188.89853"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         transform="translate(6850.0435,3816.8092)"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 6916.2421,6109.9657 c -18.6317,49.0205 -87.423,68.3695 -153.6529,43.1969 -60.3744,-22.9469 -97.7687,-74.9658 -89.7963,-121.1172 -25.4941,-30.2079 -31.9312,-81.7896 -12.8846,-131.9019 25.1724,-66.2297 85.2992,-104.814 134.3197,-86.1825 49.0203,18.6317 68.3695,87.423 43.1971,153.6527 -1.2142,3.1945 -2.5289,6.3202 -3.9006,9.3828 64.1043,25.923 101.0221,84.8094 82.7176,132.9692 z"
+         id="path3789"
+         inkscape:transform-center-x="-207.7708"
+         inkscape:transform-center-y="23.846372" />
+    </g>
+    <g
+       inkscape:export-ydpi="8.7256327"
+       inkscape:export-xdpi="8.7256327"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       transform="matrix(1.1562148,0,0,1.1562148,-824.90618,-2105.4891)"
+       id="g3791">
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:25.94673729;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         id="path3793" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         sodipodi:nodetypes="csccsc"
+         inkscape:connector-curvature="0"
+         id="path3795"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:25.94673729;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         transform="translate(6840.159,3890.9427)"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         sodipodi:ry="188.89853"
+         sodipodi:rx="188.89853"
+         sodipodi:cy="2041.3015"
+         sodipodi:cx="158.59395"
+         id="path3797"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:25.94673729;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:transform-center-y="-186.66203"
+         inkscape:transform-center-x="108.57143"
+         id="path3799"
+         d="m 6804.6555,6014.5335 c 49.8275,-16.3513 108.1407,24.9548 130.2325,92.275 20.1386,61.3683 3.2221,123.1593 -37.6701,145.9922 -7.4466,38.8203 -43.4961,76.2707 -94.4334,92.9863 -67.32,22.0917 -135.1362,-0.3792 -151.4877,-50.2066 -16.3512,-49.8274 24.9548,-108.1408 92.2748,-130.2325 3.2471,-1.0656 6.504,-2.0097 9.7476,-2.8698 -20.1713,-66.1399 2.3836,-131.8803 51.3363,-147.9446 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:25.94673729;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+    </g>
+    <g
+       inkscape:export-ydpi="8.7256327"
+       inkscape:export-xdpi="8.7256327"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-opacity:1"
+       id="g3801"
+       transform="translate(-292.20009,-1006.7433)">
+      <path
+         id="path3803"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         style="fill:#e3b3b3;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         id="path3805"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccsc"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3807"
+         sodipodi:cx="158.59395"
+         sodipodi:cy="2041.3015"
+         sodipodi:rx="188.89853"
+         sodipodi:ry="188.89853"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         transform="translate(6850.0435,3879.6663)"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-ydpi="6.9200001" />
+      <path
+         inkscape:export-ydpi="6.9200001"
+         inkscape:export-xdpi="6.9200001"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/guy2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 6889.94,6045.5569 c 42.3222,30.9672 42.7307,102.4267 0.8921,159.6069 -38.1397,52.1249 -98.2143,74.3813 -140.5977,54.4524 -35.8883,16.568 -87.3296,9.0923 -130.5946,-22.5647 -57.1801,-41.8386 -78.4332,-110.0462 -47.4661,-152.3686 30.9672,-42.3221 102.4267,-42.7308 159.6068,-0.8922 2.758,2.018 5.4231,4.1148 8.012,6.2497 41.9986,-54.9317 108.5681,-74.907 150.1475,-44.4835 z"
+         id="path3809" />
+    </g>
+    <g
+       inkscape:export-ydpi="8.7256327"
+       inkscape:export-xdpi="8.7256327"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+       style="fill:#2b2b2b;fill-opacity:1;stroke:#161616;stroke-width:1;stroke-opacity:1"
+       id="g3811"
+       transform="matrix(0.8798455,0,0,0.8798455,1550.4658,-243.86147)">
+      <path
+         id="path3813"
+         d="m 7238.9355,5981.0086 c 49.7142,-16.6925 108.3091,24.213 130.8617,91.3802 20.5587,61.2289 4.0661,123.1345 -36.6686,146.247 -7.1804,38.8704 -42.9723,76.5669 -93.7939,93.6312 -67.1671,22.5526 -135.1357,0.5471 -151.8281,-49.1671 -16.6925,-49.7143 24.213,-108.3093 91.3801,-130.8619 3.2395,-1.0877 6.49,-2.0542 9.7275,-2.9364 -20.624,-66.0002 1.4799,-131.8936 50.3213,-148.293 z"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+         inkscape:export-xdpi="13.64"
+         inkscape:export-ydpi="13.64" />
+      <path
+         style="fill:#c78f69;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7188.1523,6016.2986 c 0,0 94.9544,82.8325 54.5483,226.2741 -39.3565,139.7157 -74.7513,309.1067 -74.7513,309.1067 l -298.3715,1.8768 c 0,0 -32.9586,-612.0089 31.6912,-605.948 64.6497,6.0609 286.8833,68.6904 286.8833,68.6904 z"
+         id="path3815"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccsc"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+         inkscape:export-xdpi="13.64"
+         inkscape:export-ydpi="13.64" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3817"
+         sodipodi:cx="158.59395"
+         sodipodi:cy="2041.3015"
+         sodipodi:rx="188.89853"
+         sodipodi:ry="188.89853"
+         d="m 347.49248,2041.3015 c 0,104.3258 -84.57275,188.8985 -188.89853,188.8985 -104.325778,0 -188.898531,-84.5727 -188.898531,-188.8985 0,-104.3258 84.572753,-188.8985 188.898531,-188.8985 104.32578,0 188.89853,84.5727 188.89853,188.8985 z"
+         transform="translate(6850.0435,3881.7557)"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+         inkscape:export-xdpi="13.64"
+         inkscape:export-ydpi="13.64" />
+      <path
+         inkscape:export-ydpi="13.64"
+         inkscape:export-xdpi="13.64"
+         inkscape:export-filename="/home/tomm/LudumDare28/img/crowd2.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fbd7d7;fill-opacity:1;stroke:#161616;stroke-width:34.09689713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 6900.0831,6075.247 c 3.2004,52.344 -51.5261,98.2965 -122.2464,102.6206 -64.4678,3.9418 -119.9609,-28.0708 -131.6944,-73.4122 -35.6692,-17.0344 -62.7701,-61.3926 -66.0419,-114.9025 -4.324,-70.7201 34.5877,-130.6355 86.9317,-133.8361 52.344,-3.2004 98.2967,51.5261 102.6207,122.2462 0.2086,3.4111 0.2972,6.8009 0.3079,10.1566 69.0921,-2.7651 126.9781,35.7022 130.1224,87.1274 z"
+         id="path3819"
+         inkscape:transform-center-x="-208.26119"
+         inkscape:transform-center-y="-63.909444" />
+    </g>
   </g>
 </svg>

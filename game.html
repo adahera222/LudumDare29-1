@@ -47,6 +47,10 @@ var crackImage = new Image();
 crackImage.src = "img/crack1.png";
 var crack2Image = new Image();
 crack2Image.src = "img/crack2.png";
+var crowd1Image = new Image();
+crowd1Image.src = "img/crowd1.png";
+var crowd2Image = new Image();
+crowd2Image.src = "img/crowd2.png";
 
 var yourIndex = 0;
 var gamestate = "p";
@@ -271,6 +275,20 @@ $(function() {
         context.lineWidth = 4;
         context.strokeText("New game!", canvas.width / 2, canvas.height / 2);
         context.fillText("New game!", canvas.width / 2, canvas.height / 2);
+      }
+    }
+
+    var crowdImage = crowd1Image;
+    if(nts % 1500 > 750) {
+      crowdImage = crowd2Image
+    }
+    if(crowdImage.width > 0) {
+      context.drawImage(crowdImage, -200, canvas.height-(crowdImage.height*1.3));
+      context.drawImage(crowdImage, -100, canvas.height-(crowdImage.height));
+      context.drawImage(crowdImage, canvas.width-100, canvas.height-(crowdImage.height*1.3));
+      context.drawImage(crowdImage, canvas.width-200, canvas.height-(crowdImage.height));
+      for(var x = -100; x < canvas.width + crowdImage.width; x += (crowdImage.width - 100)) {
+        context.drawImage(crowdImage, x, canvas.height-(crowdImage.height*0.6));
       }
     }
 
