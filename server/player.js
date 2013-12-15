@@ -68,7 +68,10 @@ function Player(ws, index, gameWidth, gameHeight) {
       this.y = gameHeight;
     }
 
-    if(keys.fire && this.arrow != null && !this.arrow.firing) {
+    if(keys.fire && 
+       this.arrow != null && 
+       !this.arrow.firing &&
+       this.arrow.target != null) {
       this.arrow.firing = true;
     }
   }
