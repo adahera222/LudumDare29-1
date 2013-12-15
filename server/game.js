@@ -52,13 +52,13 @@ function gameLoop() {
     }
   }
 
-  if(totalPlayerCount < 3) {
+  if(totalPlayerCount < 4) {
     var index = getNextAvailableIndex();
     var player = new Bot(null, index, width, height);
     players[index] = player;
   }
 
-  if(totalPlayerCount > 3) {
+  if(totalPlayerCount > 4) {
     for(var i in players) {
       if(players[i].isBot && !players[i].disconnected) {
         players[i].disconnected = true;
@@ -76,11 +76,11 @@ function gameLoop() {
 
   for(var i in players) {
     if(players[i] && !players[i].disconnected) {
-      players[i].update(dt);
+      players[i].update(dt, nts);
     }
   }
 
-  arrow.update(dt, players);
+  arrow.update(dt, players, nts);
 
   var state = '';
   state += 'a';
@@ -94,6 +94,8 @@ function gameLoop() {
   state += (arrow.target == null ? '-1' : arrow.target.index);
   state += ':';
   state += arrow.firing ? 1 : 0;
+  state += ':';
+  state += (arrow.timeout != null &&  arrow.timeout - nts < 2000) ? 1 : 0;
   state += ':';
   for(var i in players) {
     if(players[i]) {
@@ -110,6 +112,8 @@ function gameLoop() {
       state += players[i].score;
       state += ':';
       state += players[i].isBot ? 1 : 0;
+      state += ':';
+      state += players[i].hit ? 1 : 0;
       state += ':';
       state += players[i].disconnected ? 1 : 0;
       state += ':';

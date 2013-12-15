@@ -13,9 +13,9 @@ function FootPrint(img, leftFoot) {
 
   this.render = function(context, time) {
     if(this.visible) {
-      var y = this.y-(img.height/2)
+      var y = this.y-(img.height*2);
       if(leftFoot) {
-        y -= img.height * 2;
+        y -= img.height;
       }
       context.drawImage(img, this.x-(img.width/2), y);
     }

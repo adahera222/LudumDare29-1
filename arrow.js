@@ -5,8 +5,12 @@ function Arrow(img, shadowImg) {
   this.player = null;
   this.target = null;
   this.firing = false;
+  this.timingOut = false;
 
   this.render = function(context, time) {
+    if(this.timingOut && time % 500 > 250) {
+      return;
+    }
     var x = this.x;
 
     if(this.player != null && !this.firing) {

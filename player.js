@@ -69,13 +69,32 @@ function Player(image1, image2, plumeImg, shadowImg, footPrintImage) {
 
 
   this.render = function(context, time) {
+    if(this.hit && time % 500 > 250) {
+      return;
+    }
     context.translate(this.x, this.y);
-    context.drawImage(shadowImg, -this.width/2,(this.height/2)-(shadowImg.height*1.5));
+
+    if(!this.hit) {
+      context.drawImage(shadowImg, -this.width/2,(this.height/2)-(shadowImg.height*1.5));
+    }
+    
     context.scale(this.direction, 1);
+
+    if(this.hit) {
+      context.translate(0, this.height/2);
+      context.rotate(-Math.PI / 2);
+    }
 
     context.drawImage((this.walking && time % 500 > 250) ? img1 : img2, -this.width/2,-this.height/2);
     context.drawImage(plume, -this.width/2,-this.height/2);
+
+    if(this.hit) {
+      context.rotate(Math.PI / 2);
+      context.translate(0, -this.height/2);
+    }
+
     context.scale(this.direction, 1);
+
     if(this.isBot) {
       context.fillStyle = '#101010';
       context.font = "16px sans";

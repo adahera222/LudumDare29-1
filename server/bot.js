@@ -46,7 +46,7 @@ function Bot(ws, index, gameWidth, gameHeight) {
     
     if(arrow.player == null) {
       if(reactionTimeOut == null) {
-        reactionTimeOut = time + (Math.random() * 1500);
+        reactionTimeOut = time + (Math.random() * Math.max(500, this.score * 100));
       }
     } else {
        reactionTimeOut = null

@@ -17,6 +17,8 @@ function Player(ws, index, gameWidth, gameHeight) {
 
   this.isBot = false;
 
+  this.hit = false;
+
   this.keys = {
     left: false,
     right: false,
@@ -40,23 +42,35 @@ function Player(ws, index, gameWidth, gameHeight) {
     });
   }
 
-  this.update = function(dt, nts, nextFootPrint) {
-    if(this.keys.left) {
-      this.x -= dt*speed;
-      this.direction = -1;
-    }
-    if(this.keys.right) {
-      this.x += dt*speed;
-      this.direction = 1;
-    }
-    if(this.keys.up) {
-      this.y -= dt*speed;
-    }
-    if(this.keys.down) {
-      this.y += dt*speed;
+  this.startHit = function(nts) {
+    this.hitTimeOut = nts+1500;
+    this.hit = true;
+  }
+
+  this.update = function(dt, nts) {
+    if(this.hit && nts > this.hitTimeOut) {
+      this.hitTimeOut = null;
+      this.hit = false;
     }
 
-    this.walking = this.keys.down || this.keys.up || this.keys.left || this.keys.right;
+    if(!this.hit) {
+      if(this.keys.left) {
+        this.x -= dt*speed;
+        this.direction = -1;
+      }
+      if(this.keys.right) {
+        this.x += dt*speed;
+        this.direction = 1;
+      }
+      if(this.keys.up) {
+        this.y -= dt*speed;
+      }
+      if(this.keys.down) {
+        this.y += dt*speed;
+      }
+    }
+    
+    this.walking = !this.hit && (this.keys.down || this.keys.up || this.keys.left || this.keys.right);
 
     if(this.x < 0) {
       this.x = 0;

@@ -43,6 +43,10 @@ var plumeImage = new Image();
 plumeImage.src = "img/plume.png";
 var footPrintImage = new Image();
 footPrintImage.src = "img/footprint.png";
+var crackImage = new Image();
+crackImage.src = "img/crack1.png";
+var crack2Image = new Image();
+crack2Image.src = "img/crack2.png";
 
 var yourIndex = 0;
 
@@ -66,7 +70,8 @@ $(function() {
     var arrowPlayerIndex = parseInt(res[4]);
     var arrowTargetIndex = parseInt(res[5]);
     arrow.firing = res[6] == '1';
-    for(var i = 7; i < res.length; i+= 8) {
+    arrow.timingOut = res[7] == '1';
+    for(var i = 8; i < res.length; i+= 9) {
       if(res[i]) {
         var playerIndex = parseInt(res[i]);
         var playerX = parseFloat(res[i+1]);
@@ -83,13 +88,15 @@ $(function() {
         if(playerIndex == yourIndex) {
           players[playerIndex].isYou = true;
         }
+
         players[playerIndex].x = playerX;
         players[playerIndex].y = playerY;
         players[playerIndex].score = playerScore;
         players[playerIndex].direction = playerDirection;
         players[playerIndex].walking = playerWalking;
         players[playerIndex].isBot = res[i+6] == "1";
-        players[playerIndex].disconnected = res[i+7] == "1";
+        players[playerIndex].hit = res[i+7] == "1";
+        players[playerIndex].disconnected = res[i+8] == "1";
       }
     }
 
@@ -204,14 +211,15 @@ $(function() {
       var thisFrameFPS = 1000 / (dt);
       fps += (thisFrameFPS - fps) / 50;
       $fps.text(""+fps);
-
-
     }
     previousTs = nts;
 
     canvas.width = canvas.width;
     context.fillStyle="#e9c6af";
     context.fillRect(0,0,canvas.width,canvas.height);
+    context.drawImage(crackImage, 100, 150);
+    context.drawImage(crackImage, 1000, 600);
+    context.drawImage(crack2Image, 500, 10);
 
     for(var i in players) {
       if(!players[i].disconnected) {
