@@ -10,13 +10,22 @@ var height = 800;
 
 var players = [];
 var arrow = new Arrow(width, height);
-var nextPlayerIndex = 0;
+
+function getNextAvailableIndex() {
+  for(var i in players) {
+    if(players[i] && players[i].disconnected) {
+      return i;
+    }
+  }
+
+  return players.length;
+}
 
 
 wss.on('connection', function(newWs) {
-    var player = new Player(newWs, nextPlayerIndex, width, height);
-    players[nextPlayerIndex] = player;
-    nextPlayerIndex ++;
+  var index = getNextAvailableIndex();
+  var player = new Player(newWs, index, width, height);
+  players[index] = player;
 });
 
 var previousTs = -1;
@@ -44,9 +53,9 @@ function gameLoop() {
   }
 
   if(totalPlayerCount < 3) {
-    var player = new Bot(null, nextPlayerIndex, width, height);
-    players[nextPlayerIndex] = player;
-    nextPlayerIndex ++;
+    var index = getNextAvailableIndex();
+    var player = new Bot(null, index, width, height);
+    players[index] = player;
   }
 
   if(totalPlayerCount > 3) {
@@ -100,6 +109,8 @@ function gameLoop() {
       state += ':';
       state += players[i].score;
       state += ':';
+      state += players[i].isBot ? 1 : 0;
+      state += ':';
       state += players[i].disconnected ? 1 : 0;
       state += ':';
     }
@@ -111,16 +122,10 @@ function gameLoop() {
     }
   }
 
-  var toRemove = [];
   for(var i in players) {
     if(players[i].disconnected) {
-      toRemove.push(i);
+      removePlayer(players[i]);
     }
-  }
-
-  for(var i in toRemove) {
-    removePlayer(players[toRemove[i]]);
-    // players.splice(toRemove[i], 1);
   }
 
   setTimeout(gameLoop, 1000/60);

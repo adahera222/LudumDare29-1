@@ -20,8 +20,8 @@ function Player(image1, image2, plumeImg, shadowImg, footPrintImage) {
     footPrints.push(new FootPrint(footPrintImage, i % 2 == 0));
   }
 
-  var colorInt = (Math.random()*0xFFFFFF<<0)
-  this.color = '#'+colorInt.toString(16)
+  var colorInt = (Math.random()*0xFFFFFF<<0);
+  this.color = '#'+colorInt.toString(16);
 
   var plume = tintImage(plumeImage, this.color);
 
@@ -30,6 +30,9 @@ function Player(image1, image2, plumeImg, shadowImg, footPrintImage) {
 
   this.direction = 1;
   this.walking = false;
+
+  this.isBot = false;
+  this.isYou = false;
 
   var x = 0;
   var y = 0;
@@ -73,6 +76,20 @@ function Player(image1, image2, plumeImg, shadowImg, footPrintImage) {
     context.drawImage((this.walking && time % 500 > 250) ? img1 : img2, -this.width/2,-this.height/2);
     context.drawImage(plume, -this.width/2,-this.height/2);
     context.scale(this.direction, 1);
+    if(this.isBot) {
+      context.fillStyle = '#101010';
+      context.font = "16px sans";
+
+      context.fillText("bot", 0, -this.height / 2);
+    }
+    if(this.isYou) {
+      context.fillStyle = this.color;
+      context.strokeStyle = "#101010";
+      context.font = "20px bold sans";
+      context.lineWidth = 2;
+      context.strokeText("you", 0, -this.height / 2);
+      context.fillText("you", 0, -this.height / 2);
+    }
     context.translate(-this.x, -this.y);
   }
 }

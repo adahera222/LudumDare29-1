@@ -44,6 +44,8 @@ plumeImage.src = "img/plume.png";
 var footPrintImage = new Image();
 footPrintImage.src = "img/footprint.png";
 
+var yourIndex = 0;
+
 $(function() {
 
   var $document = $(document);
@@ -58,12 +60,13 @@ $(function() {
   ws.onmessage = function (evt) { 
     var received = evt.data;
     var res = received.split(":")
-    arrow.x = parseFloat(res[1]);
-    arrow.y = parseFloat(res[2]);
-    var arrowPlayerIndex = parseInt(res[3]);
-    var arrowTargetIndex = parseInt(res[4]);
-    arrow.firing = res[5] == '1';
-    for(var i = 6; i < res.length; i+= 7) {
+    yourIndex = parseInt(res[0])
+    arrow.x = parseFloat(res[2]);
+    arrow.y = parseFloat(res[3]);
+    var arrowPlayerIndex = parseInt(res[4]);
+    var arrowTargetIndex = parseInt(res[5]);
+    arrow.firing = res[6] == '1';
+    for(var i = 7; i < res.length; i+= 8) {
       if(res[i]) {
         var playerIndex = parseInt(res[i]);
         var playerX = parseFloat(res[i+1]);
@@ -77,12 +80,16 @@ $(function() {
           document.title = 'Ludum Dare 28 | '+players.length+' players';
         }
 
+        if(playerIndex == yourIndex) {
+          players[playerIndex].isYou = true;
+        }
         players[playerIndex].x = playerX;
         players[playerIndex].y = playerY;
         players[playerIndex].score = playerScore;
         players[playerIndex].direction = playerDirection;
         players[playerIndex].walking = playerWalking;
-        players[playerIndex].disconnected = res[i+6] == "1";
+        players[playerIndex].isBot = res[i+6] == "1";
+        players[playerIndex].disconnected = res[i+7] == "1";
       }
     }
 

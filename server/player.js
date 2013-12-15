@@ -85,7 +85,7 @@ function Player(ws, index, gameWidth, gameHeight) {
   this.send = function(state) {
     if(ws) {
       var self = this;
-      ws.send(state,  function(error) {
+      ws.send(""+self.index+":"+state,  function(error) {
         if(error) {
           //console.log(error);
           self.disconnected = true;
