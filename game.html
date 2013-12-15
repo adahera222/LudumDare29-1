@@ -27,6 +27,7 @@ var requestAnimFrame = (function(){
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="player.js"></script>
     <script src="arrow.js"></script>
+    <script src="shield.js"></script>
     <script src="footprint.js"></script>
     <script>
 var playerImage = new Image();
@@ -37,6 +38,8 @@ var targetImage = new Image();
 targetImage.src = "img/target.png";
 var arrowImage = new Image();
 arrowImage.src = "img/sword.png";
+var shieldImage = new Image();
+shieldImage.src = "img/shield.png";
 var shadowImage = new Image();
 shadowImage.src = "img/shadow.png";
 var plumeImage = new Image();
@@ -55,12 +58,13 @@ crowd2Image.src = "img/crowd2.png";
 var yourIndex = 0;
 var gamestate = "p";
 
-$(function() {
+var app = function() {
 
   var $document = $(document);
 
   var players = [];
   var arrow = new Arrow(arrowImage, shadowImage);
+  var shield = new Shield(shieldImage, shadowImage);
 
    // Let us open a web socket
   var ws = new WebSocket("ws://localhost:8080");
@@ -77,7 +81,13 @@ $(function() {
     var arrowTargetIndex = parseInt(res[6]);
     arrow.firing = res[7] == '1';
     arrow.timingOut = res[8] == '1';
-    for(var i = 9; i < res.length; i+= 9) {
+
+
+    shield.x = parseFloat(res[10]);
+    shield.y = parseFloat(res[11]);
+    var shieldPlayerIndex = parseInt(res[12]);
+    shield.timingOut = res[13] == '1';
+    for(var i = 14; i < res.length; i+= 9) {
       if(res[i]) {
         var playerIndex = parseInt(res[i]);
         var playerX = parseFloat(res[i+1]);
@@ -110,6 +120,12 @@ $(function() {
       arrow.player = players[arrowPlayerIndex];
     } else {
       arrow.player = null;
+    }
+
+    if(shieldPlayerIndex > -1) {
+      shield.player = players[shieldPlayerIndex];
+    } else {
+      shield.player = null;
     }
 
     if(arrowTargetIndex > -1) {
@@ -248,6 +264,7 @@ $(function() {
       }
 
       arrow.render(context, nts);
+      shield.render(context, nts);
 
       if(arrow.target != null) {
         context.drawImage(targetImage, arrow.target.x-(targetImage.width/2), arrow.target.y-(targetImage.height/2), targetImage.width, targetImage.height);
@@ -309,7 +326,17 @@ $(function() {
   }
 
   requestAnimFrame(render);
-});
+};
+
+var waitForImage = function() {
+  if(!plumeImage.complete) {
+    setTimeout(waitForImage, 50);
+  } else {
+    $(app);
+  }
+}
+
+waitForImage();
 
     </script>
   </body>

@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="7090.0555"
-     inkscape:cy="-4891.9517"
+     inkscape:zoom="0.04375"
+     inkscape:cx="7466.3091"
+     inkscape:cy="-6756.1074"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1925,5 +1925,49 @@
          inkscape:transform-center-x="-208.26119"
          inkscape:transform-center-y="-63.909444" />
     </g>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       d="M 9462.8438,4915.2188 9680,7520.9375 l 1260,834.25 1260,-834.25 217.156,-2605.7187 L 10940,4608.5312 z"
+       id="path3821"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/shield.png"
+       inkscape:export-xdpi="1.92"
+       inkscape:export-ydpi="1.92" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4595"
+       d="M 9753.7678,5223.3278 9928.1554,7316.5835 10940,7986.7626 11951.844,7316.5835 12126.232,5223.3278 10940,4976.956 z"
+       style="fill:#d40000;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/shield.png"
+       inkscape:export-xdpi="1.92"
+       inkscape:export-ydpi="1.92" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:export-ydpi="1.92"
+       inkscape:export-xdpi="1.92"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/shield.png"
+       id="path4603"
+       d="m 10787.49,5835.9578 0,360 -297.125,0 0,308.5625 297.125,0 0,314.2813 308.563,0 0,-314.2813 377.156,0 0,-308.5625 -377.156,0 0,-360 -308.563,0 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4599"
+       d="m 10940,8355.1875 1260,-834.25 217.156,-2605.7187 L 10940,4608.5312 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;opacity:0.32098765000000001"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/shield.png"
+       inkscape:export-xdpi="1.92"
+       inkscape:export-ydpi="1.92" />
+    <path
+       style="opacity:0.15637860000000001;fill:#808080;fill-opacity:1;stroke:none;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 10946.374,8355.1875 -1260.0001,-834.25 -217.156,-2605.7187 1477.1561,-306.6876 z"
+       id="path4601"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/tomm/LudumDare28/img/shield.png"
+       inkscape:export-xdpi="1.92"
+       inkscape:export-ydpi="1.92" />
   </g>
 </svg>

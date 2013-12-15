@@ -4,12 +4,14 @@ var WebSocketServer = require('ws').Server
 var Player = require('./player');
 var Bot = require('./bot');
 var Arrow = require('./arrow');
+var Shield = require('./shield');
 
 var width = 1440;
 var height = 800;
 
 var players = [];
 var arrow = new Arrow(width, height);
+var shield = new Shield(width, height);
 
 function getNextAvailableIndex() {
   for(var i in players) {
@@ -91,6 +93,7 @@ function gameLoop() {
       }
     }
 
+    shield.update(dt, players, nts);
     arrow.update(dt, players, nts);
   } else if (gameState == "s") {
     if(nts > stateTimeout) {
@@ -127,6 +130,16 @@ function gameLoop() {
   state += arrow.firing ? 1 : 0;
   state += ':';
   state += (arrow.timeout != null &&  arrow.timeout - nts < 2000) ? 1 : 0;
+  state += ':';
+  state += "s";
+  state += ':';
+  state += shield.x;
+  state += ':'
+  state += shield.y;
+  state += ':';
+  state += (shield.player == null ? '-1' : shield.player.index);
+  state += ':';
+  state += (shield.timeout != null &&  shield.timeout - nts < 2000) ? 1 : 0;
   state += ':';
   for(var i in players) {
     if(players[i]) {

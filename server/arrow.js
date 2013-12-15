@@ -74,15 +74,25 @@ function Arrow(gameWidth, gameHeight) {
              (players[i].y + (players[i].height / 2)) < (this.y - this.height/ 2) ||
              (players[i].y - (players[i].height / 2)) > (this.y + this.height / 2))) {
           if(!this.firing) {
+            if(players[i].shield != null) {
+              players[i].shield.reset();
+            }
             this.player = players[i];
             this.player.arrow = this;
             this.timeout = nts + 6000;
+            
           } else if(this.player != players[i]) {
-            this.player.score += 1;
-            players[i].score -= 1;
-            players[i].startHit(nts);
+            if(players[i].shield == null) {
+              this.player.score += 1;
+              players[i].score -= 1;
+              players[i].startHit(nts);
+            } else {
+              players[i].shield.reset();
+            }
             this.reset();
           }
+
+          break;
         }
       }
     }
