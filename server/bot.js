@@ -41,10 +41,11 @@ function Bot(ws, index, gameWidth, gameHeight) {
     return (Math.abs(this.x - x) < this.width / 2) && (Math.abs(this.y - y) < this.height / 2)
   }
 
-  this.updateBot = function(arrow, time) {
+  this.updateBot = function(arrow, shield, time) {
     this.keys.fire = false;
     
-    if(arrow.player == null) {
+    if(arrow.player == null ||
+       (shield.player == null && this.arrow == null)) {
       if(reactionTimeOut == null) {
         reactionTimeOut = time + (Math.random() * Math.max(1000, 1000 + this.score * 200));
       }
@@ -58,22 +59,30 @@ function Bot(ws, index, gameWidth, gameHeight) {
       randomTargetY = null;
       this.moveToPoint(arrow.x, arrow.y);
     } else {
-      if(randomTargetX == null) {
-        randomTargetX = Math.random()*gameWidth;
-      }
-
-      if(randomTargetY == null) {
-        randomTargetY = Math.random()*gameHeight;
-      }
-
-      var atPoint = this.moveToPoint(randomTargetX, randomTargetY);
-
-      if(atPoint) {
+      if(shield.player == null &&
+         arrow.player != this &&
+         reactionTimeOut < time) {
         randomTargetX = null;
         randomTargetY = null;
+        this.moveToPoint(shield.x, shield.y);
+      } else {
+        if(randomTargetX == null) {
+          randomTargetX = Math.random()*gameWidth;
+        }
 
-        if(arrow.player == this) {
-          this.keys.fire = true;
+        if(randomTargetY == null) {
+          randomTargetY = Math.random()*gameHeight;
+        }
+
+        var atPoint = this.moveToPoint(randomTargetX, randomTargetY);
+
+        if(atPoint) {
+          randomTargetX = null;
+          randomTargetY = null;
+
+          if(arrow.player == this) {
+            this.keys.fire = true;
+          }
         }
       }
     }

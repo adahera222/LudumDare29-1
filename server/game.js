@@ -39,6 +39,10 @@ function removePlayer(player) {
      player == arrow.target) {
     arrow.reset();
   }
+
+  if(player == shield.player) {
+    shield.reset();
+  }
 }
 
 function gameLoop() {
@@ -83,7 +87,7 @@ function gameLoop() {
 
     for(var i in players) {
       if(players[i] && players[i].isBot && !players[i].disconnected) {
-        players[i].updateBot(arrow, nts);
+        players[i].updateBot(arrow, shield, nts);
       }
     }
 
@@ -101,6 +105,7 @@ function gameLoop() {
       gameState = "n";
 
       arrow.reset();
+      shield.reset();
       for(var i in players) {
         if(players[i] && !players[i].disconnected) {
           players[i].reset();
