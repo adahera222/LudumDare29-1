@@ -15,7 +15,9 @@ function Player(ws, index, gameWidth, gameHeight) {
 
   this.direction = 1;
 
-  var keys = {
+  this.isBot = false;
+
+  this.keys = {
     left: false,
     right: false,
     up: false,
@@ -26,31 +28,35 @@ function Player(ws, index, gameWidth, gameHeight) {
 
   var speed = 0.4;
 
-  ws.on('message', function(message) {
-    keys.left = message[0] == '1';
-    keys.right = message[1] == '1';
-    keys.up = message[2] == '1';
-    keys.down = message[3] == '1';
-    keys.fire = message[4] == '1';
-  });
+  var self = this;
+
+  if(ws) {
+    ws.on('message', function(message) {
+      self.keys.left = message[0] == '1';
+      self.keys.right = message[1] == '1';
+      self.keys.up = message[2] == '1';
+      self.keys.down = message[3] == '1';
+      self.keys.fire = message[4] == '1';
+    });
+  }
 
   this.update = function(dt, nts, nextFootPrint) {
-    if(keys.left) {
+    if(this.keys.left) {
       this.x -= dt*speed;
       this.direction = -1;
     }
-    if(keys.right) {
+    if(this.keys.right) {
       this.x += dt*speed;
       this.direction = 1;
     }
-    if(keys.up) {
+    if(this.keys.up) {
       this.y -= dt*speed;
     }
-    if(keys.down) {
+    if(this.keys.down) {
       this.y += dt*speed;
     }
 
-    this.walking = keys.down || keys.up || keys.left || keys.right;
+    this.walking = this.keys.down || this.keys.up || this.keys.left || this.keys.right;
 
     if(this.x < 0) {
       this.x = 0;
@@ -68,7 +74,7 @@ function Player(ws, index, gameWidth, gameHeight) {
       this.y = gameHeight;
     }
 
-    if(keys.fire && 
+    if(this.keys.fire && 
        this.arrow != null && 
        !this.arrow.firing &&
        this.arrow.target != null) {

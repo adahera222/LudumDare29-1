@@ -2,6 +2,7 @@ var WebSocketServer = require('ws').Server
   , wss = new WebSocketServer({port: 8080});
 
 var Player = require('./player');
+var Bot = require('./bot');
 var Arrow = require('./arrow');
 
 var width = 1440;
@@ -20,6 +21,13 @@ wss.on('connection', function(newWs) {
 
 var previousTs = -1;
 
+function removePlayer(player) {
+  if(player == arrow.player ||
+     player == arrow.target) {
+    arrow.reset();
+  }
+}
+
 function gameLoop() {
   var nts = Date.now();
   var dt = 0
@@ -27,6 +35,35 @@ function gameLoop() {
     dt = Math.min(100, nts - previousTs);
   }
   previousTs = nts;
+
+  var totalPlayerCount = 0;
+  for(var i in players) {
+    if(players[i] && !players[i].disconnected) {
+      totalPlayerCount ++;
+    }
+  }
+
+  if(totalPlayerCount < 3) {
+    var player = new Bot(null, nextPlayerIndex, width, height);
+    players[nextPlayerIndex] = player;
+    nextPlayerIndex ++;
+  }
+
+  if(totalPlayerCount > 3) {
+    for(var i in players) {
+      if(players[i].isBot && !players[i].disconnected) {
+        players[i].disconnected = true;
+        removePlayer(players[i]);
+        break;
+      }
+    }
+  }
+
+  for(var i in players) {
+    if(players[i] && players[i].isBot && !players[i].disconnected) {
+      players[i].updateBot(arrow, nts);
+    }
+  }
 
   for(var i in players) {
     if(players[i] && !players[i].disconnected) {
@@ -82,9 +119,7 @@ function gameLoop() {
   }
 
   for(var i in toRemove) {
-    if(players[toRemove[i]] == arrow.player) {
-      arrow.reset();
-    }
+    removePlayer(players[toRemove[i]]);
     // players.splice(toRemove[i], 1);
   }
 
