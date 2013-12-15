@@ -63,13 +63,13 @@ function gameLoop() {
       }
     }
 
-    if(totalPlayerCount < 4) {
+    if(totalPlayerCount < 3) {
       var index = getNextAvailableIndex();
       var player = new Bot(null, index, width, height);
       players[index] = player;
     }
 
-    if(totalPlayerCount > 4) {
+    if(totalPlayerCount > 3) {
       for(var i in players) {
         if(players[i].isBot && !players[i].disconnected) {
           players[i].disconnected = true;
