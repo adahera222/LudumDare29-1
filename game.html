@@ -49,6 +49,7 @@ var crack2Image = new Image();
 crack2Image.src = "img/crack2.png";
 
 var yourIndex = 0;
+var gamestate = "p";
 
 $(function() {
 
@@ -65,13 +66,14 @@ $(function() {
     var received = evt.data;
     var res = received.split(":")
     yourIndex = parseInt(res[0])
-    arrow.x = parseFloat(res[2]);
-    arrow.y = parseFloat(res[3]);
-    var arrowPlayerIndex = parseInt(res[4]);
-    var arrowTargetIndex = parseInt(res[5]);
-    arrow.firing = res[6] == '1';
-    arrow.timingOut = res[7] == '1';
-    for(var i = 8; i < res.length; i+= 9) {
+    gamestate = res[1];
+    arrow.x = parseFloat(res[3]);
+    arrow.y = parseFloat(res[4]);
+    var arrowPlayerIndex = parseInt(res[5]);
+    var arrowTargetIndex = parseInt(res[6]);
+    arrow.firing = res[7] == '1';
+    arrow.timingOut = res[8] == '1';
+    for(var i = 9; i < res.length; i+= 9) {
       if(res[i]) {
         var playerIndex = parseInt(res[i]);
         var playerX = parseFloat(res[i+1]);
@@ -221,28 +223,55 @@ $(function() {
     context.drawImage(crackImage, 1000, 600);
     context.drawImage(crack2Image, 500, 10);
 
-    for(var i in players) {
-      if(!players[i].disconnected) {
-        players[i].updateFootprints(nts);
+    if(gamestate == "p") {
+
+      for(var i in players) {
+        if(!players[i].disconnected) {
+          players[i].updateFootprints(nts);
+        }
       }
-    }
 
-    for(var i in players) {
-      if(!players[i].disconnected) {
-        players[i].renderFootprints(context, nts);
+      for(var i in players) {
+        if(!players[i].disconnected) {
+          players[i].renderFootprints(context, nts);
+        }
       }
-    }
 
-    for(var i in players) {
-      if(!players[i].disconnected) {
-        players[i].render(context, nts);
+      for(var i in players) {
+        if(!players[i].disconnected) {
+          players[i].render(context, nts);
+        }
       }
-    }
 
-    arrow.render(context, nts);
+      arrow.render(context, nts);
 
-    if(arrow.target != null) {
-      context.drawImage(targetImage, arrow.target.x-(targetImage.width/2), arrow.target.y-(targetImage.height/2), targetImage.width, targetImage.height);
+      if(arrow.target != null) {
+        context.drawImage(targetImage, arrow.target.x-(targetImage.width/2), arrow.target.y-(targetImage.height/2), targetImage.width, targetImage.height);
+      }
+    } else if(gamestate == "s") {
+      for(var i in players) {
+        if(players[i].score >= 5) {
+          players[i].render(context, nts);
+
+          if(nts % 500 > 250) {
+            context.strokeStyle = '#101010';
+            context.font = "bold 48px sans";
+            context.fillStyle = players[i].color;
+            context.lineWidth = 4;
+            context.strokeText("Winner!", canvas.width / 2, canvas.height / 2);
+            context.fillText("Winner!", canvas.width / 2, canvas.height / 2);
+          }
+        }
+      }
+    } else if(gamestate == "n") {
+      if(nts % 500 > 250) {
+        context.strokeStyle = '#101010';
+        context.font = "bold 48px sans";
+        context.fillStyle = "#EEEEEE";
+        context.lineWidth = 4;
+        context.strokeText("New game!", canvas.width / 2, canvas.height / 2);
+        context.fillText("New game!", canvas.width / 2, canvas.height / 2);
+      }
     }
 
     var textX = 10;
